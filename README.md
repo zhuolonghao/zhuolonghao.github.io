@@ -8,6 +8,7 @@ On 4/12, created the first page
 * index.html file is what i saw on internet.
 
 * this blog looks nifty, try to replicate its style.
-https://tom.preston-werner.com/
 
-https://github.com/mojombo/mojombo.github.io
+  https://tom.preston-werner.com/
+
+  https://github.com/mojombo/mojombo.github.io
