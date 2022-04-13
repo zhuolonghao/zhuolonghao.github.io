@@ -3,7 +3,7 @@ curious how to create website via github pages
 
 On 4/12, created the first page
 
-* README.MD file is what i saw in GitHub
+* README.MD file is what i saw in GitHub. [Syntax cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 * index.html file is what i saw on internet.
 
