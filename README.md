@@ -1,6 +1,8 @@
 # Let's try something fun
 curious how to create website via github pages
 
-README.MD file is what i saw in GitHub
+On 4/12, created the first page
 
-index.html file is what i saw on internet.
+* README.MD file is what i saw in GitHub
+
+* index.html file is what i saw on internet.
