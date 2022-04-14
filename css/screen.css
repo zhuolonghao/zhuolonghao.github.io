@@ -14,16 +14,19 @@
 html, body {
   height: 100%;
 }
-
+/*
+this is to control the body (e.g., posts) format
+https://stackoverflow.com/questions/5083192/what-does-this-size-mean-in-css-font-14px-24px-arial-helvetica-sans-serif
+*/
 body {
   background-color: white;
-  font: 26px helvetica, arial, clean, sans-serif;
+  font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 /* Below controls the font size of hightlight such as "Blog Posts"*/
 h1, h2, h3, h4, h5, h6 {
-  font-size: 200%;
+  font-size: 100%;
 }
 
 h1 {
