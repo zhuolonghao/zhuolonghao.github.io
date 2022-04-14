@@ -20,9 +20,8 @@ https://stackoverflow.com/questions/5083192/what-does-this-size-mean-in-css-font
 */
 body {
   background-color: white;
-  font:  helvetica, arial, clean, sans-serif;
-  font-size: 26.68px;
-  line-height: 100%;
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  *font-size: small;
   text-align: center;
 }
 /* Below controls the font size of hightlight such as "Blog Posts"*/
