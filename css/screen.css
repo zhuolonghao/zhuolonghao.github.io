@@ -21,7 +21,7 @@ body {
   *font-size: small;
   text-align: center;
 }
-
+/* Below controls the font size of hightlight such as "Blog Posts"*/
 h1, h2, h3, h4, h5, h6 {
   font-size: 200%;
 }
@@ -69,7 +69,7 @@ ul.posts {
   ul.posts span {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
+    font-size: 160%;
   }
 
 /*****************************************************************************/
