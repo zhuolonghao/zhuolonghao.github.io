@@ -11,4 +11,4 @@ On 4/12, created the first page
 
 On 4/13, re-created the page by using the blog's template
 
-* Let's try to figure google analytics next time, such as what, how, and where.
+On 4/14, re-sized the font for title, headings, and body.

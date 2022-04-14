@@ -24,9 +24,12 @@ body {
   *font-size: small;
   text-align: center;
 }
-/* Below controls the font size of heading such as "Blog Posts"*/
+/*
+Below controls the font size of heading such as "Blog Posts"
+font size is set same for heading and titles.
+*/
 h1, h2, h3, h4, h5, h6 {
-  font-size: 36px;
+  font-size: 35px;
 }
 
 h1 {
