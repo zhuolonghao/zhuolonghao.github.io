@@ -18,7 +18,7 @@ html, body {
 body {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
-  *font-size: xx-large;
+  *font-size: xx-large	;
   text-align: center;
 }
 
@@ -79,7 +79,7 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: x-large;
+  font-size: 250%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
