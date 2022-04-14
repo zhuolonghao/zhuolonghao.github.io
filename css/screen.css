@@ -24,12 +24,9 @@ body {
   *font-size: small;
   text-align: center;
 }
-/*
-Below controls the font size of heading such as "Blog Posts"
-font size is set same for heading and titles.
-*/
+/*Below controls the font size of heading such as "Blog Posts"*/
 h1, h2, h3, h4, h5, h6 {
-  font-size: 35px;
+  font-size: 140%;
 }
 
 h1 {
@@ -123,7 +120,7 @@ ul.posts {
   }
 
   .site .footer {
-    font-size: 80%;
+    font-size: 13px;
     color: #666;
     border-top: 4px solid #eee;
     margin-top: 2em;
