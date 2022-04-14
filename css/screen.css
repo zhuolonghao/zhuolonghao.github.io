@@ -27,7 +27,7 @@ body {
 }
 /* Below controls the font size of hightlight such as "Blog Posts"*/
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+  font-size: 200%;
 }
 
 h1 {
@@ -63,11 +63,11 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
   ul.posts li {
-    line-height: 3.5em;
+    line-height: 1.75em;
   }
 
   ul.posts span {
