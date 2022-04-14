@@ -26,7 +26,7 @@ body {
 }
 /* Below controls the font size of heading such as "Blog Posts"*/
 h1, h2, h3, h4, h5, h6 {
-  font-size: 160%;
+  font-size: 36px;
 }
 
 h1 {
@@ -88,7 +88,7 @@ ul.posts {
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
-
+/* Below controls the title (e.g., Longhao Zhuo and Home) formating */
 .title {
   font-size: 36px;
   color: #a00;
