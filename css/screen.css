@@ -7,8 +7,8 @@
 /* Global Reset */
 
 * {
-  margin: auto;
-  /*padding: 0;*/
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
@@ -20,13 +20,13 @@ https://stackoverflow.com/questions/5083192/what-does-this-size-mean-in-css-font
 */
 body {
   background-color: white;
-  font: 26.68px helvetica, arial, clean, sans-serif;
+  font: 20px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 /*Below controls the font size of heading such as "Blog Posts"*/
 h1, h2, h3, h4, h5, h6 {
-  font-size: 140%;
+  font-size: 110%;
 }
 
 h1 {
@@ -90,7 +90,7 @@ ul.posts {
 }
 /* Below controls the title (e.g., Longhao Zhuo and Home) formating */
 .title {
-  font-size: 36px;
+  font-size: 20px;
   color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
@@ -120,7 +120,7 @@ ul.posts {
   }
 
   .site .footer {
-    font-size: 13px;
+    font-size: 10px;
     color: #666;
     border-top: 4px solid #eee;
     margin-top: 2em;
