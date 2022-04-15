@@ -12,3 +12,5 @@ On 4/12, created the first page
 On 4/13, re-created the page by using the blog's template
 
 On 4/14, re-sized the font for title, headings, and body.
+
+On 4/15, best way to modify the style is to start with the Inspect function embedded in Chrome Browser. Changes are immediately reflected once parameters are chagned. 
