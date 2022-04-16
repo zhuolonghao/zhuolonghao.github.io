@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use .
+title: My First Post
 ---
 
 {{ page.title }}
@@ -9,13 +9,13 @@ title: How to use .
 <p class="meta">Apr 2020 - Charlotte, NC</p>
 
 
-Hello Meta Universe!
+Hello Metaverse!
 
-"**Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.**"
+"*Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world, and all there ever will be to know and understand.*"
 
-― ***Albert Einstein***
+― **Albert Einstein**
 
-So, let me organize my limited knowledge here, from where i can push the boundaries of my world outward. Hopefully, I can get a chance to peek at others' imagination.
+So, let me organize my limited knowledge here, from where I can push my boundaries. Hopefully, I can get a chance to peek at others' imagination and have mine.
 
 Best,
 Z
