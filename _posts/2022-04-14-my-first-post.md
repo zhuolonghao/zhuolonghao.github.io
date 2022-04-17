@@ -6,7 +6,7 @@ title: My First Post
 {{ page.title }}
 ================
 
-<p class="meta">Apr 2020 - Charlotte, NC</p>
+<p class="meta">Apr 2022 - Charlotte, NC</p>
 
 
 "*Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world, and all there ever will be to know and understand.*"
