@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Intro to Shadow Banking - What and Why
+title: An Intro to Shadow Banking What and Why
 ---
 
 {{ page.title }}
@@ -13,7 +13,7 @@ Shadow banks are not banks, but act like banks in credit intermediations (i.e., 
 At the risk of oversimplication, let me list a few key observations about shadow banks below.
 1. they seek funding from market participants (e.g., MMFs), rather than taking deposits from households. Thus, these wholesale funding could be unstable and sensitive to market conditions.  
 2. they perform credit intermediations similar to banks. But, instead of "*originate-to-hold*", they tend to "*originate to distribute*"; selling a wider pool of credit (e.g., CDO, CLO and ABS) to investors.
-3. They add some values through matching borrowers and investors efficiently and effectively, despite the credit risk transfer is opaque and far from perfect.
+3. they add some values through matching borrowers and investors efficiently and effectively, despite the credit risk transfer is opaque and far from perfect.
 4. they operate with limited regulations and hence lacks the government backstopping guarantees during the stressed periods.
 
 Today, they're closely monitored by Financial Stability Board and called as a narrow measure of *non-banking financial institution* or [NBFIs](https://en.wikipedia.org/wiki/Non-bank_financial_institution) or a narrow measure .
