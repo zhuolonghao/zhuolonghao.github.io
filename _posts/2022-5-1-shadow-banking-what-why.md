@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Intro to Shadow Banking: What and Why 
+title: My second post
 ---
 
 {{ page.title }}
@@ -20,5 +20,7 @@ Today, they're closely monitored by Financial Stability Board and called as a na
 
 
 **Reference**
+
 [1] PAUL MCCULLEY, 2009, ['The Shadow Banking System and Hyman Minsky’s Economic Journey'](https://www.pimco.com/en-us/insights/economic-and-market-commentary/global-central-bank-focus/the-shadow-banking-system-and-hyman-minskys-economic-journey/)
+
 [2] THE FINANCIAL CRISIS INQUIRY COMMISSION, 2011, ['The Financial Crisis Inquiry Report'](https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf)
