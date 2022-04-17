@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'An Intro to Shadow Banking: What and Why'
+title: 'An Intro to Shadow Banking - What and Why'
 ---
 
 {{ page.title }}
