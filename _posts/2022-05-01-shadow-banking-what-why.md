@@ -23,6 +23,8 @@ At the risk of oversimplication, let me list a few key observations about shadow
 <br/>
 Today, the shadow banking system is closely monitored by the Financial Stability Board ([FSB](https://www.fsb.org/)), an international body established post the 08's crisis for making recommendation about the global financial system. Since 2018, the FSB moved away from the term “shadow banking” and adopts “*nonbank financial intermediations*”([NBFIs](https://en.wikipedia.org/wiki/Non-bank_financial_institution)). In particular, the FSB tracks and monitors three aggregates, based on their business models, activities and associated vulnerabilities. that include *non-bank financial intermediation (NBFI)*, *OFIs (other financial intermediaries)*, and *narrow measure of NBFI*. As of Dec-2021, NBFIs (or its narrow measure) is reported to have $226.6 trillion (or $63.2 trillion)in financial assets, making up 48.3 (or 13.5) percent of total financial assets held by 29 jurisdictions that account for approximately 80% of global GDP[3].   
 
+<br/>
+
 <a href="https://www.fsb.org/2021/12/global-monitoring-report-on-non-bank-financial-intermediation-2021/">
   <img src="/_images/posts_2022-05-01/NBFIs_FSB.png">
 </a>
