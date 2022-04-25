@@ -21,12 +21,17 @@ In this post, I was sharing what I learned about what's about shadow banking and
 * shadow banks operate with limited regulations and oversight, and lacks the government backstopping *guarantees* during the stressed periods.
 
 <br/>
+<<<<<<< HEAD
 A thorough study on shadow banks was found in a series of works done by brilliant economists such as [3]. In the meantime, the shadow banking system has been closely monitored by the Financial Stability Board ([FSB](https://www.fsb.org/)) since 2011 [4][5]. After 7 year tracking and monitoring, the FSB decided in 2018 to move away from the term “shadow banking” and adopts “*nonbank financial intermediations*”([NBFIs](https://en.wikipedia.org/wiki/Non-bank_financial_institution)) to reflect its "*emphasis the forward-looking aspect of the FSB’s work.*"[6].
 
 In particular, the FSB tracks and monitors three aggregates, based on their business models, activities and associated vulnerabilities. that include *non-bank financial intermediation (NBFI)*, *OFIs (other financial intermediaries)*, and *narrow measure of NBFI*. As of Dec-2020, NBFIs (or its narrow measure) is reported to have $226.6 trillion (or $63.2 trillion) in financial assets, making up 48.3 (or 13.5) percent of total financial assets held by 29 jurisdictions that account for approximately 80% of global GDP[7].   
 
 <br/>
 
+=======
+Today, the shadow banking system is closely monitored by the Financial Stability Board ([FSB](https://www.fsb.org/)), an international body established post the 08's crisis for making recommendation about the global financial system. Since 2018, the FSB moved away from the term “shadow banking” and adopts “*nonbank financial intermediations*”([NBFIs](https://en.wikipedia.org/wiki/Non-bank_financial_institution)). In particular, the FSB tracks and monitors three aggregates, based on their business models, activities and associated vulnerabilities. that include *non-bank financial intermediation (NBFI)*, *OFIs (other financial intermediaries)*, and *narrow measure of NBFI*. As of Dec-2021, NBFIs (or its narrow measure) is reported to have $226.6 trillion (or $63.2 trillion)in financial assets, making up 48.3 (or 13.5) percent of total financial assets held by 29 jurisdictions that account for approximately 80% of global GDP[3].   
+<br/><br/>
+>>>>>>> 11a155ae802f5d511eef833cda87fdbd853cdeb4
 <a href="https://www.fsb.org/2021/12/global-monitoring-report-on-non-bank-financial-intermediation-2021/">
   <img src="/_images/posts_2022-05-01/NBFIs_FSB.png">
 </a>
@@ -41,7 +46,7 @@ Based on the author's calculation, the narrow measure of NBFI has $31.5 trillion
   <img src="/_images/posts_2022-05-01/NBFIs_FRED.png">
 </a>
 
-<br/><br/><br/>
+<br/><br/>
 
 Note:
 
