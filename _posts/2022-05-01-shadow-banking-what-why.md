@@ -36,9 +36,10 @@ Based on the author's calculation, the narrow measure of NBFI has $31.5 trillion
   <img src="/images/posts_2022-05-01/narrow_measure_fed.png">
 </a>
 
-|Quarter | Fed Reserve |	Banks (incl. Credit Unions) | Insurance + Pension |	CFIML	| Equity |	Narrow Measure of NBFI|
-| ---   | --- | --- | --- | --- | --- |--- |
-|2021-Q4 | $8,886bn | $30,019bn |	$40,508bn |	$3,002bn | $20,906bn |	$31,458bn |
+<a>
+  <img src="/images/posts_2022-05-01/narrow_measure_fed_numbers.png">
+</a>
+
 
 
 
