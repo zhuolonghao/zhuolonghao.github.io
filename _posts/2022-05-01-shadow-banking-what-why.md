@@ -10,7 +10,11 @@ title: "[MP] Shadow Banking: What and Why"
 
 **Shadow banks** are not banks, but act like banks when it comes to credit intermediations (i.e., making loans to household and business and/or underwrite debt securities). The term "shadow bank" is coined in 2007 by Paul McCulley to describe its then nature of being levered, under-regulated and distant to the public [1]. It is really the 2008's Great Financial Crisis (GFC) that brings the shadow banking system to light, as it was later recognized as one of key factors leading up to the crisis[2].
 
-In this post, I was sharing what I learned about what's about shadow banking and why it's interesting to me. At the risk of oversimplication, let me first put up a few observations:
+In this post, I was sharing what I learned about what's about shadow banking and why it's interesting/important.
+
+## What are shadow banks?
+
+At the risk of oversimplication, let me first put up a few observations:
 
 * shadow banks seek funding from market participants (e.g., money market funds or MMFs), rather than taking deposits from households. Thus, they rely on wholesale funding that could be unstable and sensitive to market conditions.  
 
@@ -20,20 +24,19 @@ In this post, I was sharing what I learned about what's about shadow banking and
 
 * shadow banks operate with limited regulations and oversight, and lacks the government backstopping *guarantees* during the stressed periods.
 
-<br/>
+A thorough study on shadow banks was found in a series of works done by brilliant economists such as [3]. In the meantime, the shadow banking system has been closely monitored by the Financial Stability Board ([FSB](https://www.fsb.org/)) since 2011 [4][5]. After 7 year tracking and monitoring, the FSB decided in 2018 to move away from the term “shadow banking” and adopts “*nonbank financial intermediations*”([NBFIs](https://en.wikipedia.org/wiki/Non-bank_financial_institution)) to reflect its "*emphasis the forward-looking aspect of the FSB’s work.*"[6]. In particular, the FSB watches closely three aggregates, defined by their business models, activities and associated vulnerabilities, that include *non-bank financial intermediation (NBFI)*, *OFIs (other financial intermediaries)*, and *narrow measure of NBFI*.  
 
-A thorough study on shadow banks was found in a series of works done by brilliant economists such as [3]. In the meantime, the shadow banking system has been closely monitored by the Financial Stability Board ([FSB](https://www.fsb.org/)) since 2011 [4][5]. After 7 year tracking and monitoring, the FSB decided in 2018 to move away from the term “shadow banking” and adopts “*nonbank financial intermediations*”([NBFIs](https://en.wikipedia.org/wiki/Non-bank_financial_institution)) to reflect its "*emphasis the forward-looking aspect of the FSB’s work.*"[6].In particular, the FSB watches closely three aggregates, defined by their business models, activities and associated vulnerabilities, that include *non-bank financial intermediation (NBFI)*, *OFIs (other financial intermediaries)*, and *narrow measure of NBFI*.  
+**Narrow Measure of NBFI** are financial intermediaries that conduct involving *liquidity*, *maturity* and *credit* transformation as well as the build-up of *leverage*, without explicit access to central bank liquidity or public sector credit guarantees[3]. Hereafter, i'd like to use **narrow NBFIs** and **shadow banks** interchangeably given its similarity and overlapping.
+
+## Why are NBFIs important?
 
 As of Dec-2020, NBFIs (or its narrow measure) is reported to have $226.6 trillion (or $63.2 trillion) in financial assets, making up 48.3 (or 13.5) percent of total financial assets held by 29 jurisdictions that account for approximately 80% of global GDP[7].   
-
 
 <a href="https://www.fsb.org/2021/12/global-monitoring-report-on-non-bank-financial-intermediation-2021/">
   <img src="/_images/posts_2022-05-01/NBFIs_FSB.png">
 </a>
 
 <br/><br/><br/>
-
-**Narrow Measure of NBFI** are financial intermediaries that conduct involving *liquidity*, *maturity* and *credit* transformation as well as the build-up of *leverage*, without explicit access to central bank liquidity or public sector credit guarantees[3]. Hereafter, i'd like to use **narrow NBFIs** and **shadow banks** interchangeably given its similarity and overlapping.
 
 The annual report from FSB has a focus on global market and not represent details on individual countries. To fill the gap, I made/replicated calculations for U.S. shadow banking system.
 
