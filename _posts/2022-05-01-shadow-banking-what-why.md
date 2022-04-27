@@ -16,21 +16,24 @@ In this post, I was sharing what I learned about what's about shadow banking and
 
 At the risk of oversimplication, let me first put up a few observations:
 
-* shadow banks seek funding from market participants (e.g., money market funds or MMFs), rather than taking deposits from households. Thus, they rely on wholesale funding that could be unstable and sensitive to market conditions.  
+* shadow banks do not take deposits from households. Instead, they rely on short-term funding, which make themselves sensitive to market conditions.  
 
-* shadow banks perform credit intermediations similar to banks. But, instead of using traditional lending strategy "*originate-to-hold*", they tend to "*originate to distribute*"; once originated, they offload/sell credit assets to market investors.
+* shadow banks are more likely to use the "*originate to distribute*" strategy; E.g., they make loans to leveraged borrowers with the intention of selling them to third parties like institutional investors.
 
-* shadow banks have value proposition: *improving the efficiency of credit markets* thanks to their risk appetite, expertise and cost structure. In the meantime, they're also criticized for their imperfect credit risk transfer (e.g., stakeholders took excessive risks and remained under-compensated).
+* shadow banks do have value proposition: *improving the efficiency of credit markets* and *market clearing*. In the meantime, they're also criticized for their imperfect credit risk transfer (e.g., institutional investors take excessive risks, while shadow bankers are overpaid after risk-adjustment).
 
-* shadow banks operate with limited regulations and oversight, and lacks the government backstopping *guarantees* during the stressed periods.
+* shadow banks operate under minimal government oversight, and have non-guaranteed government backstopping during the stress periods.
 
-A thorough study on shadow banks was found in a series of works done by brilliant economists such as [3]. In the meantime, the shadow banking system has been closely monitored by the Financial Stability Board ([FSB](https://www.fsb.org/)) since 2011 [4][5]. After 7 year tracking and monitoring, the FSB decided in 2018 to move away from the term “shadow banking” and adopts “*nonbank financial intermediations*”([NBFIs](https://en.wikipedia.org/wiki/Non-bank_financial_institution)) to reflect its "*emphasis the forward-looking aspect of the FSB’s work.*"[6]. In particular, the FSB watches closely three aggregates, defined by their business models, activities and associated vulnerabilities, that include *non-bank financial intermediation (NBFI)*, *OFIs (other financial intermediaries)*, and *narrow measure of NBFI*.  
+A thorough study on shadow banks was found in a series of works done by brilliant economists such as [3]. In the meantime, the shadow banking system has been closely monitored by the Financial Stability Board ([FSB](https://www.fsb.org/)) since 2011 [4][5]. After 7 years' tracking and monitoring, the FSB decided in 2018 to move away from the term “shadow banking” and adopt “*nonbank financial intermediations*”([NBFIs](https://en.wikipedia.org/wiki/Non-bank_financial_institution)) to reflect its "*emphasis the forward-looking aspect of the FSB’s work.*"[6]. In particular, the FSB watches closely three aggregates, defined by their business models, activities and associated vulnerabilities, that include *non-bank financial intermediation (NBFI)*, *other financial intermediaries(OFIs)*, and *narrow measure of NBFI*.  
 
-**Narrow Measure of NBFI** are financial intermediaries that conduct involving *liquidity*, *maturity* and *credit* transformation as well as the build-up of *leverage*, without explicit access to central bank liquidity or public sector credit guarantees[3]. Hereafter, i'd like to use **narrow NBFIs** and **shadow banks** interchangeably given its similarity and overlapping.
+**Narrow Measure of NBFI** are financial intermediaries that involves *liquidity*, *maturity* and *credit* transformation as well as the build-up of *leverage*, without explicit access to central bank liquidity or public sector credit guarantees[3]. Traditional banks, on the other hand, benefit from their privileged accesses to, say, FDIC's deposit insurance and Federal Reserve's discount windows and various lending programs (e.g., the Main Street Lending Program).
+
+In my eyes, shadow banks and narrow measure of NBFI are twin concepts that i will use them interchangeably.     
+
 
 ## Why are shadow banks important?
 
-In the 2020 annual monitoring report [7], nearly half (48.3%) of total global financial assets comes from the NBFIs; In a broader measure, it is reported to have $226.6 trillion, of which the narrow NBFIs or shadow banking have $63.2 trillion. A further breakdown indicates the collective investment vehicles (e.g., money market funds (MMFs) and fixed income funds) makes up the majority of the narrow NBFIs.
+In the 2020 annual monitoring report [7], nearly half (48.3%) of total global financial assets comes from the NBFIs; it is reported to have $226.6 trillion for overall NBFI, of which the narrow NBFIs or shadow banking have $63.2 trillion. A further breakdown indicates the collective investment vehicles (e.g., money market funds (MMFs), fixed income funds, and some hedge funds) makes up the majority of the narrow NBFIs.
 
 <a href="https://www.fsb.org/2021/12/global-monitoring-report-on-non-bank-financial-intermediation-2021/">
   <img src="/_images/posts_2022-05-01/NBFIs_FSB.png">
@@ -38,15 +41,17 @@ In the 2020 annual monitoring report [7], nearly half (48.3%) of total global fi
 
 <br><br>
 
-Annual reports from FSB has a laser focus on global welfare with limited details on individual countries. To fill the gap, I made/replicated calculations for U.S. shadow banking system.
+Unfortunately, FSB's annual reports has a laser focus on global welfare with limited details on individual countries. To fill the gap, I make/replicated calculations for U.S. shadow banking system using Fed's Flow of Funds.
 
-Per my worksheet on the Fed's Flow of Funds, the shadow banks outsized the traditional banks; as of Dec-2021, the shadow banks have $31.5 trillion in financial assets, $1.4 trillion higher than banks and credit combined. Looking back on history, the shadow banks' asset has consistently surpassed traditional banks since the mid-1995, and reached the largest gap during the 08's crisis, since then differences begin to shrink.
+Per my worksheet [8], the shadow banks outsized the traditional banks; as of Dec-2021, the shadow banks have $31.5 trillion in financial assets, $1.4 trillion higher than banks and credit combined. Looking back on history, the shadow banks' asset has consistently surpassed traditional banks since the mid-1995. Their difference reaches the peak during the 08's crisis, and keeps shrinking since then.
 
 <a>
   <img src="/_images/posts_2022-05-01/NBFIs_FRED.png">
 </a>
 
-It should also be noted that the asset size should not be interpreted as a proxy for the net supply of credit provided by shadow banks for many reasons such as the originated credit has been sold to other investors and offload from their balance sheet. In the next post, i will try to explain how the shadow banking system are chained up in credit intermediation and related activities.
+It should also be noted that the asset size should not be interpreted as a proxy for the net supply of credit provided by shadow banks for many reasons such as the originated credit has been sold and offload from their balance sheet.
+
+In the next post, i will try to explain how the shadow banking system are chained up in credit intermediation and related activities.
 
 
 Note:
@@ -68,3 +73,5 @@ The definition of entities involved in the FSB calculation could be found [here]
 [6] Financial Stability Board, 2019 ['Global Monitoring Report on Non-Bank Financial Intermediation 2018'](https://www.fsb.org/wp-content/uploads/P040219.pdf)
 
 [7] Financial Stability Board, 2021 ['Global Monitoring Report on Non-Bank Financial Intermediation 2020'](https://www.fsb.org/2021/12/global-monitoring-report-on-non-bank-financial-intermediation-2021)
+
+[8] [Author's worksheet based on fed data](https://github.com/zhuolonghao/zhuolonghao.github.io/tree/main/_images/posts_2022-05-01)
