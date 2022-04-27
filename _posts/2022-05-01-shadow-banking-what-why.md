@@ -30,23 +30,22 @@ A thorough study on shadow banks was found in a series of works done by brillian
 
 ## Why are NBFIs important?
 
-As of Dec-2020, NBFIs (or its narrow measure) is reported to have $226.6 trillion (or $63.2 trillion) in financial assets, making up 48.3 (or 13.5) percent of total financial assets held by 29 jurisdictions that account for approximately 80% of global GDP[7].   
+In the 2020 annual monitoring report[7], nearly half (48.3%) of total global financial assets comes from the NBFIs; In a broader measure, it is reported to have $226.6 trillion, of which the narrow NBFIs have $63.2 trillion. A further breakdown indicates the collective investment vehicles (e.g., money market funds (MMFs) and fixed income funds) makes up the majority of the narrow NBFIs.
 
 <a href="https://www.fsb.org/2021/12/global-monitoring-report-on-non-bank-financial-intermediation-2021/">
   <img src="/_images/posts_2022-05-01/NBFIs_FSB.png">
 </a>
 
-<br/><br/><br/>
+Annual reports from FSB has a laser focus on global welfare with limited details on individual countries. To fill the gap, I made/replicated calculations for U.S. shadow banking system.
 
-The annual report from FSB has a focus on global market and not represent details on individual countries. To fill the gap, I made/replicated calculations for U.S. shadow banking system.
-
-Based on my calculation, the narrow NBFI in U.S. has $31.5 trillion in financial assets as of Dec-2021, which is roughly $1.4 trillion higher than the total assets of banks and credit combined. Looking back on history, the narrow measure's asset size surpassed the traditional bank since the mid-1995, and reached the largest gap during the 08's crisis. It should be also noted that the asset size should not be interpreted as a proxy for the net supply of credit provided by NBFIs for many reasons such as its originate-to-distribute business model. Therefore, it's of great importance to understand how the shadow banking is operating and interacting with other market participants.
+Per my worksheet on the Fed's Flow of Funds, the shadow banks outsized the traditional banks; as of Dec-2021, the shadow banks have $31.5 trillion in financial assets, $1.4 trillion higher than banks and credit combined. Looking back on history, the shadow banks' asset has consistently surpassed traditional banks since the mid-1995, and reached the largest gap during the 08's crisis, since then the differences begins to shrink.
 
 <a>
   <img src="/_images/posts_2022-05-01/NBFIs_FRED.png">
 </a>
 
-<br/><br/>
+It should also be noted that the asset size should not be interpreted as a proxy for the net supply of credit provided by shadow banks for many reasons such as the originated credit has been sold to other investors and offload from their balance sheet. In the next post, i will try to explain how the shadow banking system are chained up in credit intermediation and related activities.
+
 
 Note:
 
