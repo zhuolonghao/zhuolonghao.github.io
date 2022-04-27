@@ -36,7 +36,7 @@ In the 2020 annual monitoring report [7], nearly half (48.3%) of total global fi
   <img src="/_images/posts_2022-05-01/NBFIs_FSB.png">
 </a>
 
-</br>
+<br><br>
 
 Annual reports from FSB has a laser focus on global welfare with limited details on individual countries. To fill the gap, I made/replicated calculations for U.S. shadow banking system.
 
