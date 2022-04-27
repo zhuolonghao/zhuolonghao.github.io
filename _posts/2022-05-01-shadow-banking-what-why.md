@@ -20,7 +20,7 @@ At the risk of oversimplication, let me first put up a few observations:
 
 * shadow banks perform credit intermediations similar to banks. But, instead of using traditional lending strategy "*originate-to-hold*", they tend to "*originate to distribute*"; once originated, they offload/sell credit assets to market investors.
 
-* shadow banks create value to society by improving the efficiency of credit markets, due to their risk appetite, expertise and cost structure. In the meantime, they're also criticized for their imperfect credit risk transfer (e.g., stakeholders took excessive risks and remained under-compensated).
+* shadow banks have value proposition: *improving the efficiency of credit markets* thanks to their risk appetite, expertise and cost structure. In the meantime, they're also criticized for their imperfect credit risk transfer (e.g., stakeholders took excessive risks and remained under-compensated).
 
 * shadow banks operate with limited regulations and oversight, and lacks the government backstopping *guarantees* during the stressed periods.
 
