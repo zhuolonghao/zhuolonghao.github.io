@@ -30,7 +30,7 @@ A thorough study on shadow banks was found in a series of works done by brillian
 
 ## Why are shadow banks important?
 
-In the 2020 annual monitoring report[7], nearly half (48.3%) of total global financial assets comes from the NBFIs; In a broader measure, it is reported to have $226.6 trillion, of which the narrow NBFIs have $63.2 trillion. A further breakdown indicates the collective investment vehicles (e.g., money market funds (MMFs) and fixed income funds) makes up the majority of the narrow NBFIs.
+In the 2020 annual monitoring report [7], nearly half (48.3%) of total global financial assets comes from the NBFIs; In a broader measure, it is reported to have $226.6 trillion, of which the narrow NBFIs or shadow banking have $63.2 trillion. A further breakdown indicates the collective investment vehicles (e.g., money market funds (MMFs) and fixed income funds) makes up the majority of the narrow NBFIs.
 
 <a href="https://www.fsb.org/2021/12/global-monitoring-report-on-non-bank-financial-intermediation-2021/">
   <img src="/_images/posts_2022-05-01/NBFIs_FSB.png">
