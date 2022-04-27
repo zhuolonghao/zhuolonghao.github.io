@@ -36,6 +36,8 @@ In the 2020 annual monitoring report [7], nearly half (48.3%) of total global fi
   <img src="/_images/posts_2022-05-01/NBFIs_FSB.png">
 </a>
 
+</br>
+
 Annual reports from FSB has a laser focus on global welfare with limited details on individual countries. To fill the gap, I made/replicated calculations for U.S. shadow banking system.
 
 Per my worksheet on the Fed's Flow of Funds, the shadow banks outsized the traditional banks; as of Dec-2021, the shadow banks have $31.5 trillion in financial assets, $1.4 trillion higher than banks and credit combined. Looking back on history, the shadow banks' asset has consistently surpassed traditional banks since the mid-1995, and reached the largest gap during the 08's crisis, since then the differences begins to shrink.
