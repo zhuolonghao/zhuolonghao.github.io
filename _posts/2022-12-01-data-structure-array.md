@@ -21,7 +21,7 @@ Let's recap what we looked at in this explore card:
   - [88](https://leetcode.com/problems/merge-sorted-array/): p1 = 0, p2 = 0, for i in range(n+m):
 
 - delete items from lists
- - [27](https://leetcode.com/problems/remove-duplicates-from-sorted-array/):
+  - [27](https://leetcode.com/problems/remove-duplicates-from-sorted-array/):
 
 - search for items in an list
   - [1346](https://leetcode.com/problems/check-if-n-and-its-double-exist/):
@@ -63,8 +63,8 @@ Let's recap what we looked at in this explore card:
 
 # Functions
 
-    | Description      | Function-1 | Function-2  | Function-3 |
-    |------------------|------------|-------------|------------|
-    | sorting the list | xxx.sort() | sorted(xxx) |            |
+    | Description             | Function-1        | Function-2               |       Function-3 |
+    |-------------------------|-------------------|--------------------------|------------------|
+    | sorting the list        | xxx.sort()        | sorted(xxx)              |                  |
     | inserting items to list | xxx.append(value) | xxx.insert(index, value) | xxx.extend(list) |
     | deleting items from list| xxx.remove(value) | xxx.pop(index)           | del xxx[index]   |
