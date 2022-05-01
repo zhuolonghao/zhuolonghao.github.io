@@ -36,7 +36,7 @@ In my eyes, shadow banks and narrow measure of NBFI are twin concepts that i wil
 In the 2020 annual monitoring report [7], nearly half (48.3%) of total global financial assets comes from the NBFIs; it is reported to have $226.6 trillion for overall NBFI, of which the narrow NBFIs or shadow banking have $63.2 trillion. A further breakdown indicates the collective investment vehicles (e.g., money market funds (MMFs), fixed income funds, and some hedge funds) makes up the majority of the narrow NBFIs.
 
 <a href="https://www.fsb.org/2021/12/global-monitoring-report-on-non-bank-financial-intermediation-2021/">
-  <img src="/_images/posts_2022-05-01/NBFIs_FSB.png">
+  <img src="/images/posts_2022-05-01/NBFIs_FSB.png">
 </a>
 
 <br><br>
@@ -46,7 +46,7 @@ Unfortunately, FSB's annual reports has a laser focus on global welfare with lim
 Per my worksheet [8], the shadow banks outsized the traditional banks; as of Dec-2021, the shadow banks have $31.5 trillion in financial assets, $1.4 trillion higher than banks and credit combined. Looking back on history, the shadow banks' asset has consistently surpassed traditional banks since the mid-1995. Their difference reaches the peak during the 08's crisis, and keeps shrinking since then.
 
 <a>
-  <img src="/_images/posts_2022-05-01/NBFIs_FRED.png">
+  <img src="/images/posts_2022-05-01/NBFIs_FRED.png">
 </a>
 
 It should also be noted that the asset size should not be interpreted as a proxy for the net supply of credit provided by shadow banks for many reasons such as the originated credit has been sold and offload from their balance sheet.
