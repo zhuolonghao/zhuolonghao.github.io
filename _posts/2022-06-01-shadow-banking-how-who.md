@@ -49,7 +49,7 @@ Let's take a look at how shadow banks help financing the purchase of a Toyota Ve
 
 Say a new car buyer chooses to finance via her Toyota dealership, she may end up with borrowing from the Toyota Motor Credit Corp or TMCC, a financial arm of the automaker. As of Mar-2021, TMCC has $133bn of total assets, of which $109bn or (82%) is funded by debts. A close look at its debt source shows the unsecured and secured debt outstanding of $85bn and $24bn, respectively. It's also noted that its commercial paper issuance programs, despite unsecured, are supported by the banks' credit facilities in various forms.
 
-<a href="https://www.toyotafinancial.com/content/dam/tmcc-webcommons/toyotafinancial/documents/investor-relations/sec-filings/2021/Annual%20Reports%20on%20Form%2010-K/june/FY%202021%20ended%20March%2031,%202021.html#CONSOLIDATED_BALANCE_SHEET">
+<a align="center" href="https://www.toyotafinancial.com/content/dam/tmcc-webcommons/toyotafinancial/documents/investor-relations/sec-filings/2021/Annual%20Reports%20on%20Form%2010-K/june/FY%202021%20ended%20March%2031,%202021.html#CONSOLIDATED_BALANCE_SHEET">
   <img src="/images/posts_2022-06-01/NBFIs_TMCC_debt.png" >
 </a>
 
