@@ -37,8 +37,8 @@ Let's recap what we looked at in this explore card:
   - [1089](https://leetcode.com/problems/duplicate-zeros/): use .pop and .insert
   - [1346](https://leetcode.com/problems/check-if-n-and-its-double-exist/):
   - [941](https://leetcode.com/problems/valid-mountain-array/): walk-up to the peak, and step down to the trough.
-
-
+  - [217](https://leetcode.com/problems/contains-duplicate/): _dict={} for i in nums: if i not in _dict
+  - [1](https://leetcode.com/problems/two-sum/): _dict={} for i in nums: resid = target - i if resid in _dict,
 
 - Approach: Two Passes, time complexity = O(n)
   - [905](https://leetcode.com/problems/sort-array-by-parity/):  return ([x for x in A if x % 2 == 0] + [x for x in A if x % 2 == 1])
@@ -53,13 +53,22 @@ Let's recap what we looked at in this explore card:
   - [487](https://leetcode.com/problems/max-consecutive-ones-ii/): p1=0, p2=0, while p1 < len(nums)
   - [487](https://leetcode.com/problems/max-consecutive-ones-ii/): curr_run, prev_run  = 0, 0, maxRun = max(maxRun, prevOnes + 1 + currOnes)
   - [977](https://leetcode.com/problems/squares-of-a-sorted-array/): result = [0] * n, left = 0, right = n - 1, for i in reversed(range(n)):
+  - [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/): min_price = 0, max_profit = 0
 
 - Approach: Sliding Window, time complexity = O(n)
-  - [487](https://leetcode.com/problems/max-consecutive-ones-ii/):longest_sequence=0, left, right = 0, 0, num_zeroes=0, while right < len(nums):  
+  - [487](https://leetcode.com/problems/max-consecutive-ones-ii/):longest_sequence=0, left, right = 0, 0, num_zeroes=0, while right < len(nums):
 
 - Approach: Set
   - [414](https://leetcode.com/problems/third-maximum-number/): set(nums), .remove(), .remove(), .remove()
   - [448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/): set operation: set() - set()
+  - [217](https://leetcode.com/problems/contains-duplicate/): len(set(nums)) == len(nums)
+
+- Approach: Dynamic Programming
+  - [53](https://leetcode.com/problems/maximum-subarray/): curSum = max(num, curSum + num) maxSum = max(maxSum, curSum)
+
+- Approach: Binary search
+  - [74](https://leetcode.com/problems/search-a-2d-matrix/): left, right = 0, m * n - 1 while left <= right: pivot_idx = (left + right) // 2  *pivot_element = matrix[pivot_idx // n][pivot_idx % n]*
+
 
 # Functions
 
