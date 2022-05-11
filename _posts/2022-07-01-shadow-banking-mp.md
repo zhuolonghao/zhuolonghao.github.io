@@ -10,15 +10,22 @@ title: "[MP] Shadow Banking: MMMF and Monetary Policy"
 
 In this post, I'd narrow down the focus to money market mutual funds (MMMFs), who issue shares to investors and invest in short-term (often less than 1-year) assets from a diverse universe, ranging from US Treasuries to commercial papers.
 
-For example, [Fidelity&copy Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), one of the largest money market funds on the market, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022. The portfolio composition is not constant and will change with market conditions at the discretion of the fund managers.   
+For example, [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), one of the largest money market funds on the market, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022. The portfolio composition is based on its investment objectives (e.g., risk-adjusted return), and subject to change at the discretion of the fund managers. 
 
+<p align="center">
 <a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
-  <img src="/images/posts_2022-07-01/one_mmmf.png">
+  <img src="/images/posts_2022-07-01/one_mmmf.png" width="300">
 </a>
+</p>
+
 
 ## MMMF Industry
 
-<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=Pgow&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+<p align="center">
+<a href="https://fred.stlouisfed.org/graph/?g=Pg9L">
+  <img src="/images/posts_2022-07-01/MMMF.png">
+</a>
+</p>
 
 ## MMMFs and "Balance Sheet Normalization"
 
