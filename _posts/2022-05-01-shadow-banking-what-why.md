@@ -12,8 +12,6 @@ title: "[MP] Shadow Banking: What and Why"
 
 In this post, I was sharing what I learned about what's about shadow banking and why it's interesting/important.
 
-<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=Pgow&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
-
 
 ## What are shadow banks?
 

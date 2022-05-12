@@ -10,7 +10,7 @@ title: "[MP] Shadow Banking: MMMF and Monetary Policy"
 
 In this post, I'd narrow down the focus to money market mutual funds (MMMFs) and its role in the Fed's ["Balance Sheet Normarlization"](https://www.federalreserve.gov/monetarypolicy/policy-normalization-discussions-communications-history.htm).
 
-A MMMF is a kind of mutual fund that issues shares to investors and invests in a diverse set of short-term (often less than 1-year) assets such as US Treasuries and commercial papers. [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), for example, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022. 
+A MMMF is a kind of mutual fund that issues shares to investors and invests in a diverse set of short-term (often less than 1-year) assets such as US Treasuries and commercial papers. [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), for example, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022.
 
 <p align="center">
 <a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
@@ -18,16 +18,16 @@ A MMMF is a kind of mutual fund that issues shares to investors and invests in a
 </a>
 </p>
 
-Note that the portfolio composition is sensitive to market condition and subject to change at the discretion of the fund managers. A year earlier, the same fund allocated 41.2% and 12.7% to CPs and CDs, respectively, partly due to low credit risk and ample liquidity. 
+Note that the portfolio composition is sensitive to market condition and subject to change at the discretion of the fund managers. A year earlier, the same fund allocated 41.2% and 12.7% to CPs and CDs, respectively, partly due to low credit risk and ample liquidity.
 
 ## MMMF Industry
 
-<p align="center">
-<a href="https://fred.stlouisfed.org/graph/?g=Pg9L">
-  <img src="/images/posts_2022-07-01/MMMF.png">
-</a>
-</p>
+Now, let's turn to the whole MMMFs industry and see how the portfolio composition evolves over the time. In particular, assets are ranked from the safest (e.g., bank deposits at bottom) to the risker (e.g., Corporate bonds and commercial papers at top).
 
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=Pgow&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+
+
+From 2020 to 2022, the most striking development was the US Treasuries (UST) and REPO assets, which comes at 85.2% of total assets.   
 
 
 
