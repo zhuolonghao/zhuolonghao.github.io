@@ -77,3 +77,10 @@ Let's recap what we looked at in this explore card:
     | sorting the list        | xxx.sort()        | sorted(xxx)              |                  |
     | inserting items to list | xxx.append(value) | xxx.insert(index, value) | xxx.extend(list) |
     | deleting items from list| xxx.remove(value) | xxx.pop(index)           | del xxx[index]   |
+    | set: s belongs to t     | s.issubset(t)     | s <= t                   |                  |
+    | set: union              | s.union(t)        | s \| t                   |                  |
+    | set: intersection       | s.intersection(t) | s & t                    |                  |
+    | set: x in s but not in t| s.diference(t)    | s - t                    |                  |
+    | string: find "chars" in string  | s.find("chars") from left to right|  s.rfind("charts"), from right to left  |                  |
+    | string: split string to letters | s.split()    | | |
+    | string: join stirngs into one   | " ".join(s_list), s_list is a list | | |
