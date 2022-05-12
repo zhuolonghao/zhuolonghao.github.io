@@ -8,9 +8,9 @@ title: "[MP] Shadow Banking: MMMF and Monetary Policy"
 
 <p class="meta">June 2022 - Charlotte, NC</p>
 
-In this post, I'd narrow down the focus to money market mutual funds (MMMFs), who issue shares to investors and invest in short-term (often less than 1-year) assets from a diverse universe, ranging from US Treasuries to commercial papers.
+In this post, I'd narrow down the focus to money market mutual funds (MMMFs) and its role in the Fed's ["Balance Sheet Normarlization"](https://www.federalreserve.gov/monetarypolicy/policy-normalization-discussions-communications-history.htm).
 
-For example, [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), one of the largest money market funds on the market, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022. The portfolio composition is based on its investment objectives (e.g., risk-adjusted return), and subject to change at the discretion of the fund managers. 
+A MMMF is a kind of mutual fund that issues shares to investors and invests in a diverse set of short-term (often less than 1-year) assets such as US Treasuries and commercial papers. [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), for example, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022. 
 
 <p align="center">
 <a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
@@ -18,6 +18,7 @@ For example, [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutu
 </a>
 </p>
 
+Note that the portfolio composition is sensitive to market condition and subject to change at the discretion of the fund managers. A year earlier, the same fund allocated 41.2% and 12.7% to CPs and CDs, respectively, partly due to low credit risk and ample liquidity. 
 
 ## MMMF Industry
 
@@ -26,6 +27,11 @@ For example, [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutu
   <img src="/images/posts_2022-07-01/MMMF.png">
 </a>
 </p>
+
+
+
+
+
 
 ## MMMFs and "Balance Sheet Normalization"
 
