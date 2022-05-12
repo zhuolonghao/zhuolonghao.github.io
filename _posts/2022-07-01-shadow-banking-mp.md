@@ -18,20 +18,27 @@ A MMMF is a kind of mutual fund that issues shares to investors and invests in a
 </a>
 </p>
 
-Note that the portfolio composition is sensitive to market condition and subject to change at the discretion of the fund managers. A year earlier, the same fund allocated 41.2% and 12.7% to CPs and CDs, respectively, partly due to low credit risk and ample liquidity.
+The portfolio composition is sensitive to market condition and subject to change at the discretion of the fund managers. A year earlier, for instance, the fund allocated more in CP at 41.2%, while less in CDs at 12.7%, partly due to more credit appeitite and ample liquidity.
 
 ## MMMF Industry
 
-Now, let's turn to the whole MMMFs industry and see how the portfolio composition evolves over the time. In particular, assets are ranked from the safest (e.g., bank deposits at bottom) to the risker (e.g., Corporate bonds and commercial papers at top).
+Now, let's turn to the portfolio composition of the whole MMMFs industry and how it evolves over the time.  
 
-<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=Pgow&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+<p align="center">
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=Pgow&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy">
+</iframe>
+</p>
 
+### Reserve Primary Fund and two Reforms: 
 
-From 2020 to 2022, the most striking development was the US Treasuries (UST) and REPO assets, which comes at 85.2% of total assets.   
+A key event that has a profound influence on the industry is the unprecedented collapse of the Reserve Primary Fund.
 
+* On Sunday, September 14, the Reserve Primary Fund held debt securities (mainly CPs) issued by Lehman Brothers with a face value of $785 million [1][2].
+* On Monday, September 15, Lehman announced it had filed for bankruptcy protection. In response to this annoucement, on the same day, the Fund faced a tidal wave of redemption requests. 
+* On Tuesday, September 16, the Fund announced that it had broken the 1.00 net asset value mark (aka, break the buck) and was now valued at 0.97, a new NAV that attributed a zero value to the Lehman holdings[1][2]. On the same day, the $62.5 billion dollar fund was forced to pay out $10.8 billion in redemptions and faced about $28 billion of further withdrawal requests [3].
+* In the next two weeks, the run quickly spread to other money funds, who had to seek sponsor support by means of either capital infusion or purchase of discounted paper at book value, during this period. Still, $400 billion was pulled out of the funds, and flow of short-term credit from the funds to companies froze[4].
 
-
-
+### Reverse Repo to MMMFs is like bank reserve to commercial banks.
 
 ## MMMFs and "Balance Sheet Normalization"
 
@@ -83,4 +90,12 @@ Note:
 
 **Reference**
 
-[1] Pozsar, Adrian, Ashcraft, and Boesky, 2012, ['Shadow Banking'](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr458.pdf)
+[1] SEC Sue Reserve Primary Fund, 2011 [Lawsuit](https://www.sec.gov/spotlight/reserve_primary_fund_investors/gardephe_opinion.pdf)
+
+[2] Bogglehead, ["The_2008_money_market_crisis"](https://www.bogleheads.org/wiki/The_2008_money_market_crisis)
+
+[3] Kacperczyk and Schnabl, 2010, ['When Safe Proved Risky: Commercial Paper during the Financial Crisis of 2007–2009'](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.24.1.29)
+
+[4] The Editors, 2011, [Bloomberg's Opinion](https://www.bloomberg.com/opinion/articles/2011-12-23/money-market-mutual-funds-that-break-the-buck-can-become-a-memory-view)
+
+
