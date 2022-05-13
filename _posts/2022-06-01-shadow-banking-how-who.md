@@ -10,7 +10,7 @@ title: "[MP] Shadow Banking: Who and How"
 
 As discussed in the last post, **Shadow banks** or **Narrow Measure of NBFI** are financial intermediaries that involve *liquidity*, *maturity* and *credit* transformation as well as the build-up of *leverage*, without explicit access to central bank liquidity or public sector credit guarantees[1].  
 
-In this post, I'd continue to discuss key participants in the shadow banking system and how they're chained up to grow strongly in recent decades. My discussion includes a summary of this brilliant work [1], as well as a case study.
+In this post, I'd continue to discuss who are key participants in the shadow banking system and how are they chained up to grow strongly in recent decades. My discussion includes a summary of this brilliant work [1], as well as a case study.
 
 ## How did the shadow banking system work?
 
@@ -67,7 +67,7 @@ Thanks to its [investment-grade](https://global.toyota/en/ir/stock/rating/) cred
 
 At the same time, TMCC taps asset-back securities(ABS) through the shadow banking system's channels: To isolate its securitization activity from its loan operations, it created variable interest entities(VIEs) for pooling loans receivables and issuing ABS on the behalf of TMCC.
 
-One such example is *Toyota Auto Receivables LLC.* and *TOYOTA AUTO RECEIVABLES 2021-A OWNER TRUST*, who issued a $1,620MM asset-based security named *TOYOTA AUTO RECEIVABLES 2021-A OWNER TRUST* (Yes, it has the exactly same name as one of two VIEs). From the Prospectus (Form 428B5) of the ABS, this deal started with the TMCC transfering the right of collecting receivables to the LLC., who in turn transfers the right to the Trust. The Trust is structuring  loans' principal and interest into multiple tranches or classes of debts that customize risk, rating, timing of repayment, and lien seniority on the collateral, using credit enhancement techniques like a reserve account, overcollateralization, and subordinations. Once it's done, a new ABS was created and handed over back to the LLC. With the help of underwriters like *MUFG* and *BMO Capital Markets*, the LLC could gain access to a broad spectrum of institutional and retail investors.
+One such example is *Toyota Auto Receivables LLC.* and *TOYOTA AUTO RECEIVABLES 2021-A OWNER TRUST*, who issued a $1,620MM asset-based security named *TOYOTA AUTO RECEIVABLES 2021-A OWNER TRUST* (Yes, it has the exactly same name as one of two VIEs). From the Prospectus (Form 428B5) of the ABS, this deal started with the TMCC transfering the right of collecting receivables to the LLC., who in turn tasked the Trust for securitization; the Trust is structuring  loans' principal and interest into multiple tranches or classes of debts that customize risk, rating, timing of repayment, and lien seniority on the collateral, using credit enhancement techniques like a reserve account, overcollateralization, and subordinations. Once it's done, a new ABS was created and handed over back to the LLC. With the help of underwriters like *MUFG* and *BMO Capital Markets*, the LLC could market and distribute the security to a broad spectrum of institutional and retail investors.
 
 
 <p align="center">

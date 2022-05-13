@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Coding] Data Structure: List"
+title: "[Coding] Data Structure: List and String"
 ---
 
 {{ page.title }}
@@ -55,6 +55,8 @@ Let's recap what we looked at in this explore card:
   - [977](https://leetcode.com/problems/squares-of-a-sorted-array/): result = [0] * n, left = 0, right = n - 1, for i in reversed(range(n)):
   - [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/): min_price = 0, max_profit = 0
 
+- Approach: Three-Pointers
+  - [75](https://leetcode.com/problems/sort-colors/), p0 = curr = 0, p2 = len(nums)-1 while curr <= p2
 - Approach: Sliding Window, time complexity = O(n)
   - [487](https://leetcode.com/problems/max-consecutive-ones-ii/):longest_sequence=0, left, right = 0, 0, num_zeroes=0, while right < len(nums):
 
@@ -74,11 +76,12 @@ Let's recap what we looked at in this explore card:
 
 ### List
 
-    | Description             | Function-1        | Function-2               |       Function-3 |
-    |-------------------------|-------------------|--------------------------|------------------|
-    | sorting the list        | xxx.sort()        | sorted(xxx)              |                  |
-    | inserting items to list | xxx.append(value) | xxx.insert(index, value) | xxx.extend(list) |
-    | deleting items from list| xxx.remove(value) | xxx.pop(index)           | del xxx[index]   |
+    | Description             | Function-1                  | Function-2                     |       Function-3 |
+    |-------------------------|-----------------------------|--------------------------------|------------------|
+    | sort the list           | xxx.sort()                  | sorted(xxx)                    |                  |
+    | sort a list of lists    | xxx.sort(key=lambda x:x[0]) | sorted(xxx, key=lambda x: x[0])|                  |
+    | insert items to list    | xxx.append(value)           | xxx.insert(index, value)       | xxx.extend(list) |
+    | delete items from list  | xxx.remove(value)           | xxx.pop(index)                 | del xxx[index]   |
 
 ### Set
     | Description             | Function-1        | Function-2               |

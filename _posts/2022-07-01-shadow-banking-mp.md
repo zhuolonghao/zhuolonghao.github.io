@@ -18,7 +18,7 @@ A MMMF is a kind of mutual fund that issues shares to investors and invests in a
 </a>
 </p>
 
-The portfolio composition is sensitive to market condition and subject to change at the discretion of the fund managers. A year earlier, for instance, the fund allocated more in CP at 41.2%, while less in CDs at 12.7%, partly due to more credit appeitite and ample liquidity.
+The portfolio composition is sensitive to market condition and subject to change at the discretion of the fund managers. A year earlier, for instance, the fund allocated more in CP at 41.2%, while less in CDs at 12.7%, partly due to more credit appetite and ample liquidity.
 
 ## MMMF Industry
 
@@ -58,7 +58,7 @@ On July 14, 2014 the SEC issued final rules that were effective from October 14,
 
 ### <ins>MMFs and Fed's Reverse Repo</ins>
 
-Overnight Reverse Repo (RRP) is employed by Fed to drain excess liquidity from MMMFs. 
+Overnight Reverse Repo (RRP) is employed by Fed to drain excess liquidity from MMMFs.
 
 In concept, the ON RRP facility acts like interest on reserve balances (IORB) rate for a set of [nonbank money market participants](https://www.newyorkfed.org/markets/rrp_counterparties). That is, the Fed offers a broad range of financial institutions that are ineligible to earn IORB, an alternative risk-free investment option. Together, the IORB rate and the ON RRP set a floor under overnight rates, beneath which banks and non-bank financial institutions should be unwilling to invest funds in private markets.[6]
 
