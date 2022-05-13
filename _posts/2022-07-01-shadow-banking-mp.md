@@ -29,7 +29,7 @@ Now, let's turn to the portfolio composition of the whole MMMFs industry and how
 </iframe>
 </p>
 
-### Reserve Primary Fund and two Reforms:
+### <ins>Reserve Primary Fund and two Reforms</ins>
 
 A key event that has a profound influence on the industry is the unprecedented collapse of the Reserve Primary Fund.
 
@@ -51,16 +51,20 @@ On July 14, 2014 the SEC issued final rules that were effective from October 14,
 
 1. adopt a floating net asset value (NAV) for institutional prime money market funds
 2. provide non-government money market fund boards new tools – liquidity fees and redemption gates – to address runs.
-  1. a liquidity fee may be levied in order to pay for that access (i.e. investors might be required to pay a fee if they redeem shares during this time).
-  2. a redemption gate may be implemented to limit redemptions in a fund for a short period of time (up to 15 business days in a 90-day period).
+
+    1. a liquidity fee $$$ may be levied (i.e. investors might be required to pay a fee if they redeem shares during this time).
+    2. a redemption gate may be implemented to limit redemptions in a fund for a short period of time (up to 15 business days in a 90-day period).
 
 
-### Reverse Repo to MMMFs is like bank reserve to commercial banks.
+### <ins>MMFs and Fed's Reverse Repo</ins>
 
+Overnight Reverse Repo (RRP) is employed by Fed to drain excess liquidity from MMMFs. 
+
+In concept, the ON RRP facility acts like interest on reserve balances (IORB) rate for a set of [nonbank money market participants](https://www.newyorkfed.org/markets/rrp_counterparties). That is, the Fed offers a broad range of financial institutions that are ineligible to earn IORB, an alternative risk-free investment option. Together, the IORB rate and the ON RRP set a floor under overnight rates, beneath which banks and non-bank financial institutions should be unwilling to invest funds in private markets.[6]
 
 ## MMMFs and "Balance Sheet Normalization"
 
-### Tapering
+### <ins>Tapering</ins>
 Fed Monthly Asset Purchase
 |  Statement Date | Action Date | UST | Agency MBS | Total |
 |----------------:|------------:|----:|-----------:|------:|
@@ -84,7 +88,7 @@ Fed Monthly Asset Purchase
 |                 |    Feb-2022 | $20 |        $10 |   $30 |
 |                 |    Mar-2022 |  $0 |         $0 |    $0 |
 
-### Balance Sheet Run-off
+### <ins>Balance Sheet Run-off</ins>
 Monthly Caps On SOMA Securities Reductions
 | From      | To       | UST | Agency Debt and Agency MBS |
 |-----------|----------|:---:|:--------------------------:|
@@ -103,8 +107,7 @@ https://www.federalreserve.gov/econres/notes/feds-notes/what-happened-in-money-m
 
 Note:
 
-[Commercial Paper, CP](https://en.wikipedia.org/wiki/Commercial_paper): unsecured and short-term (<270 days) debt instrument used to fund operating expense, inventory, and receivables. As a CP matures it is often replaced with newly issued CP (often called as rollover).
-
+For more data on MMFs, I'd recommend to check out the website of [the Office of Financial Research](https://www.financialresearch.gov/money-market-funds/us-mmfs-investments-by-fund-category/).
 
 **Reference**
 
@@ -118,3 +121,5 @@ Note:
 
 [5] President Working Group, 2020, [Overview of Recent Events and Potential Reform
 Options for Money Market Funds](https://home.treasury.gov/system/files/136/PWG-MMF-report-final-Dec-2020.pdf)
+
+[6] Liberty Street Economics, 2022, [How the Fed’s Overnight Reverse Repo Facility Works](https://libertystreeteconomics.newyorkfed.org/2022/01/how-the-feds-overnight-reverse-repo-facility-works/)
