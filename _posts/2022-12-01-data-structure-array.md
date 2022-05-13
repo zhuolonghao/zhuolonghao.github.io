@@ -94,3 +94,9 @@ Let's recap what we looked at in this explore card:
     | return index of "chars" in string  | s.find("chars") from left to right|  s.rfind("charts"), from right to left  |                
     | split a string to a list of letters| s.split()                         |                                         |
     | join a list of strings to one      | " ".join(s_list)                  |                                         |
+
+### Package: colletions
+
+| Description                        | Function-1                                                                     |
+|------------------------------------|--------------------------------------------------------------------------------|
+| _dict = collections.Counter(nums)  | collections.Counter("Hello") = Counter({'l': 2, 'H': 1, 'e': 1, 'o': 1})       |

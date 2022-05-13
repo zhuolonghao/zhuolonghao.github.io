@@ -29,20 +29,38 @@ Now, let's turn to the portfolio composition of the whole MMMFs industry and how
 </iframe>
 </p>
 
-### Reserve Primary Fund and two Reforms: 
+### Reserve Primary Fund and two Reforms:
 
 A key event that has a profound influence on the industry is the unprecedented collapse of the Reserve Primary Fund.
 
-* On Sunday, September 14, the Reserve Primary Fund held debt securities (mainly CPs) issued by Lehman Brothers with a face value of $785 million [1][2].
-* On Monday, September 15, Lehman announced it had filed for bankruptcy protection. In response to this annoucement, on the same day, the Fund faced a tidal wave of redemption requests. 
-* On Tuesday, September 16, the Fund announced that it had broken the 1.00 net asset value mark (aka, break the buck) and was now valued at 0.97, a new NAV that attributed a zero value to the Lehman holdings[1][2]. On the same day, the $62.5 billion dollar fund was forced to pay out $10.8 billion in redemptions and faced about $28 billion of further withdrawal requests [3].
-* In the next two weeks, the run quickly spread to other money funds, who had to seek sponsor support by means of either capital infusion or purchase of discounted paper at book value, during this period. Still, $400 billion was pulled out of the funds, and flow of short-term credit from the funds to companies froze[4].
+* On Sunday, September 14, the Reserve Primary Fund held debt securities (mainly CPs) issued by Lehman Brothers with a face value of $785 million[1][2].
+* On Monday, September 15, Lehman announced it had filed for bankruptcy protection. In response to this annoucement, on the same day, the Fund faced a tidal wave of redemption requests.
+* On Tuesday, September 16, the Fund announced that it had broken the 1.00 net asset value mark (aka, break the buck) and was now valued at 0.97, a new NAV that attributed a zero value to the Lehman holdings[1][2]. On the same day, the $62.5 billion dollar fund was forced to pay out $10.8 billion in redemptions and faced about $28 billion of further withdrawal requests[3].
+* In the next two weeks, the run quickly spread to other money funds, who had to seek sponsor support by means of either capital infusion or purchase of discounted paper at book value, during this period. Still, $400 billion was pulled out of the funds, and flow of short-term credit from the funds to companies froze [4].
+
+The SEC has implemented a number of reforms over the past decade aimed at making MMFs more resilient to credit and liquidity stresses and addressing structural vulnerabilities in MMFs that were evident in the 2008 financial crisis, particularly the substantial reforms the SEC adopted in 2010 and 2014.
+
+On February 23, 2010, the SEC adopted three amendments to rule 2a-7 which governs money market funds. The rules were effective from June 30, 2010 onwards.
+
+1. To address credit risks, a new 120-day limit on funds’ portfolio weighted average life (WAL) to limit
+exposure to credit spreads, as well as a reduction in the limit on funds’ portfolio weighted average maturity (WAM) from 90 days to 60 days to limit interest rate risk[2][5].
+2. Liquidity buffers are introduced for taxable money market funds (a minimum 10% of assets must be cash, treasury securities, or securities that convert to cash in one day; a minimum 30% of assets must be cash, treasury securities or certain government securities with remaining maturities of 60 days or less, or securities that convert to cash within one week.)[2]
+3. Tighter restrictions on the amount of higher risk second-tier securities a money fund can hold (now a maximum limit of 3% from the former limit of 5%; and a maximum limit of 0.5% to any single issuer, from a prior limit of 1%.) Investment in second tier securities is restricted to maturities of 45 days or less.[2]
+
+On July 14, 2014 the SEC issued final rules that were effective from October 14, 2016 onwards.
+
+1. adopt a floating net asset value (NAV) for institutional prime money market funds
+2. provide non-government money market fund boards new tools – liquidity fees and redemption gates – to address runs.
+  1. a liquidity fee may be levied in order to pay for that access (i.e. investors might be required to pay a fee if they redeem shares during this time).
+  2. a redemption gate may be implemented to limit redemptions in a fund for a short period of time (up to 15 business days in a 90-day period).
+
 
 ### Reverse Repo to MMMFs is like bank reserve to commercial banks.
 
+
 ## MMMFs and "Balance Sheet Normalization"
 
-#### Tapering
+### Tapering
 Fed Monthly Asset Purchase
 |  Statement Date | Action Date | UST | Agency MBS | Total |
 |----------------:|------------:|----:|-----------:|------:|
@@ -66,7 +84,7 @@ Fed Monthly Asset Purchase
 |                 |    Feb-2022 | $20 |        $10 |   $30 |
 |                 |    Mar-2022 |  $0 |         $0 |    $0 |
 
-#### Balance Sheet Run-off
+### Balance Sheet Run-off
 Monthly Caps On SOMA Securities Reductions
 | From      | To       | UST | Agency Debt and Agency MBS |
 |-----------|----------|:---:|:--------------------------:|
@@ -98,4 +116,5 @@ Note:
 
 [4] The Editors, 2011, [Bloomberg's Opinion](https://www.bloomberg.com/opinion/articles/2011-12-23/money-market-mutual-funds-that-break-the-buck-can-become-a-memory-view)
 
-
+[5] President Working Group, 2020, [Overview of Recent Events and Potential Reform
+Options for Money Market Funds](https://home.treasury.gov/system/files/136/PWG-MMF-report-final-Dec-2020.pdf)
