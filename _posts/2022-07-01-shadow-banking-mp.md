@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[MP] Shadow Banking: MMMF and Monetary Policy"
+title: "[MP] Shadow Banking: Money Market Funds and Monetary Policy"
 ---
 
 {{ page.title }}
@@ -8,9 +8,9 @@ title: "[MP] Shadow Banking: MMMF and Monetary Policy"
 
 <p class="meta">June 2022 - Charlotte, NC</p>
 
-In this post, I'd narrow down the focus to money market mutual funds (MMMFs) and its role in the Fed's ["Balance Sheet Normarlization"](https://www.federalreserve.gov/monetarypolicy/policy-normalization-discussions-communications-history.htm).
+In this post, I'd narrow down the focus to money market mutual funds (MMFs) and its role in the Fed's ["Balance Sheet Normarlization"](https://www.federalreserve.gov/monetarypolicy/policy-normalization-discussions-communications-history.htm).
 
-A MMMF is a kind of mutual fund that issues shares to investors and invests in a diverse set of short-term (often less than 1-year) assets such as US Treasuries and commercial papers. [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), for example, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022.
+A MMF is a kind of mutual fund that issues shares to investors and invests in a diverse set of short-term (often less than 1-year) assets such as US Treasuries and commercial papers. [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), for example, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022.
 
 <p align="center">
 <a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
@@ -20,9 +20,9 @@ A MMMF is a kind of mutual fund that issues shares to investors and invests in a
 
 The portfolio composition is sensitive to market condition and subject to change at the discretion of the fund managers. A year earlier, for instance, the fund allocated more in CP at 41.2%, while less in CDs at 12.7%, partly due to more credit appetite and ample liquidity.
 
-## MMMF Industry
+## Money Market Fund Industry
 
-Now, let's turn to the portfolio composition of the whole MMMFs industry and how it evolves over the time.  
+Now, let's turn to the portfolio composition of the whole MMFs industry and how it evolves over the time.  
 
 <p align="center">
 <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=Pgow&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy">
@@ -58,7 +58,7 @@ On July 14, 2014 the SEC issued final rules that were effective from October 14,
 
 ### <ins>MMFs and Fed's Reverse Repo</ins>
 
-Overnight Reverse Repo (RRP) is employed by Fed to drain excess liquidity from MMMFs.
+Overnight Reverse Repo (RRP) is employed by Fed to drain excess liquidity from MMFs.
 
 In concept, the ON RRP facility acts like interest on reserve balances (IORB) rate for a set of [nonbank money market participants](https://www.newyorkfed.org/markets/rrp_counterparties). That is, the Fed offers a broad range of financial institutions that are ineligible to earn IORB, an alternative risk-free investment option. *Together, the IORB rate and the ON RRP set a floor under overnight rates, beneath which banks and non-bank financial institutions should be unwilling to invest funds in private markets*.[6]
 
@@ -67,7 +67,7 @@ In concept, the ON RRP facility acts like interest on reserve balances (IORB) ra
 https://www.federalreserve.gov/econres/notes/feds-notes/what-happened-in-money-markets-in-september-2019-20200227.htm
 https://libertystreeteconomics.newyorkfed.org/2022/01/the-feds-latest-tool-a-standing-repo-facility/
 
-## MMMFs and "Balance Sheet Normalization"
+## Money Market Funds and "Balance Sheet Normalization"
 
 [The financial crisis of 2008](https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008) and [the COVID-19 recession](https://en.wikipedia.org/wiki/COVID-19_recession) in 2020 had forced the Federal Reserve to purchase large quantities of financial assets, known as "Quantitative Easing" or [QE](https://www.visualcapitalist.com/the-feds-balance-sheet-the-other-exponential-curve/). This expansionary monetary policy has expanded the Fed’s balance sheet from less than $900 billion before 2008 to about $8.9 trillion as of May, 2022; The majority is US Treasuries of $5.7 trillion, followed by the agency mortgage-backed securities of $2.7 trillion.
 
@@ -78,7 +78,11 @@ In the meantime, there're ongoing efforts to keep the Fed's balance sheet as lea
 </iframe>
 </p>
 
-The critical question here was the long-run optimal size of its balance sheet. What we know today is that Fed decides to continue to implement monetary policy in a regime with an ample supply of reserves[7]. But before the choice becomes apparent, Fed was debating two options below:
+### <ins>What is the long-run optimal size of its balance sheet?</ins>
+
+What we know today is that Fed decides to continue to implement monetary policy in a regime with an ample supply of reserves[7]. What we didn't know is how large should the Fed's balance sheet be? 
+
+Not long ago, Fed was even debating two options:
 
 1. shrink the balance sheet to the pre-2008 level, and control short-term rates through the supply of reserve.
 
@@ -92,25 +96,30 @@ This [article](https://www.frbsf.org/economic-research/wp-content/uploads/sites/
 </a>
 </p>
 
-[This](https://www.brookings.edu/blog/ben-bernanke/2016/09/02/should-the-fed-keep-its-balance-sheet-large/) and [this](https://www.sipa.columbia.edu/sites/default/files/greenwood_final.pdf) articulate the rationales of the chosen option (i.e., \#2), including
+[This](https://www.brookings.edu/blog/ben-bernanke/2016/09/02/should-the-fed-keep-its-balance-sheet-large/) and [this](https://www.sipa.columbia.edu/sites/default/files/greenwood_final.pdf) articulate the rationales of why the option 2 should be preferred, including
 
-- [+]There is a strong demand from the private sector for safe, liquid, short-term securities.
-  - The Govt. short-term claims (US Bills and Notes) should crowd out private-sector-created short claims (e.g., $1 NAV shares). Doing so would make the Fed take on more fiscal (interest-rate) risks.
-- [+]Only banks can earn interest on reserves (i.e., IOER).
+- [+] There is a strong demand from the private sector for safe, liquid, short-term securities.
+  - The Govt. short-term claims (US Bills and Notes) should crowd out private-sector-created short claims (e.g., CP and ABCP). Doing so would make the Fed take on more fiscal (interest-rate) risks.
+- [+] Only banks can earn interest on reserves (i.e., IOER).
   - Fed should use Reverse Repurchase (RRP) facility should be used to control the short-term rate MMFs earn.
-- [+]Fed can better handle bank runs and/or MMF runs as a lender of last resort.
+- [+] Fed can better handle bank runs and/or MMF runs as a lender of last resort.
   - The incentive to insufficient liquidity management in private sector could be curbed by regulations such as Liquidity Coverage Ratio ([LCR](https://www.bis.org/fsi/fsisummaries/lcr.htm)) and Net stable funding ratio([NSFS](https://www.bis.org/fsi/fsisummaries/nsfr.htm)).
-- [-]Fed is taking on more fiscal risk, as its balance sheet expands. (Chris Sims)
+- [-] Fed is taking on more fiscal risk, as its balance sheet expands. (Chris Sims)
   - Mitigant: the asset mix may reduce such risk ???? (Jeremy Stein)
 
 
+### <ins>A close look at balance sheet normalization</ins>
 
+The Federal Open Market Committee (FOMC) discusses and designs Principles and Plans in normalizing the stance of monetary policy. Historically, there principles and plans are implemented via 
+- set a federal fund target rate;
+- tapering (i.e., slow the pace of the asset purchase)
+- balance sheet run-off (i.e., reduce the balance sheet size b
 
-### <ins>Tapering</ins>
-Fed Monthly Asset Purchase
+*Tapering: Fed Monthly Asset Purchase*
+
 |  Statement Date | Action Date | UST | Agency MBS | Total |
 |----------------:|------------:|----:|-----------:|------:|
-| Before Tapering |             | $45 |        $40 |   $85 |
+| First-tine  | Before Tapering       | $45 |        $40 |   $85 |
 |        Dec-2013 |    Jan-2014 | $40 |        $35 |   $75 |
 |        Jan-2014 |    Feb-2014 | $35 |        $30 |   $65 |
 |                 |    Mar-2014 | $35 |        $30 |   $65 |
@@ -123,15 +132,15 @@ Fed Monthly Asset Purchase
 |        Sep-2014 |    Oct-2014 | $10 |         $5 |   $15 |
 |                 |    Nov-2014 |  $0 |         $0 |    $0 |
 |                 |             |     |            |       |
-| Before Tapering |             | $80 |        $40 |  $120 |
+| Second-tine | Before Tapering         | $80 |        $40 |  $120 |
 |        Nov-2021 |    Nov-2021 | $70 |        $35 |  $105 |
 |                 |    Dec-2021 | $60 |        $30 |   $90 |
 |        Dec-2021 |    Jan-2022 | $40 |        $20 |   $60 |
 |                 |    Feb-2022 | $20 |        $10 |   $30 |
 |                 |    Mar-2022 |  $0 |         $0 |    $0 |
 
-### <ins>Balance Sheet Run-off</ins>
-Monthly Caps On SOMA Securities Reductions
+*Balance Sheet Run-off: Monthly Caps On SOMA Securities Reductions*
+
 | From      | To       | UST | Agency Debt and Agency MBS |
 |-----------|----------|:---:|:--------------------------:|
 | Oct 2017  | Dec 2017 |  $6 |             $4             |
@@ -145,6 +154,7 @@ Monthly Caps On SOMA Securities Reductions
 | Jun 2022  | Aug 2022 | $30 |            $17.5           |
 | Sep 2022  | TBA      | $60 |             $35            |
 
+[This](https://libertystreeteconomics.newyorkfed.org/2022/04/the-feds-balance-sheet-runoff-and-the-on-rrp-facility/) and [this](https://libertystreeteconomics.newyorkfed.org/2022/04/the-feds-balance-sheet-runoff-the-role-of-levered-nbfis-and-households/) discussed the role of MMFs in the balance sheet runoff.
 
 Note:
 
