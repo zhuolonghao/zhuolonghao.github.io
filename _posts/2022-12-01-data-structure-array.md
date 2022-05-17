@@ -69,7 +69,16 @@ Let's recap what we looked at in this explore card:
   - [53](https://leetcode.com/problems/maximum-subarray/): curSum = max(num, curSum + num) maxSum = max(maxSum, curSum)
 
 - Approach: Binary search
+
   - [74](https://leetcode.com/problems/search-a-2d-matrix/): left, right = 0, m * n - 1 while left <= right: pivot_idx = (left + right) // 2  *pivot_element = matrix[pivot_idx // n][pivot_idx % n]*
+  - [240](https://leetcode.com/problems/search-a-2d-matrix-ii/) lo = start; hi = len(matrix[0]) - 1 if vertical else len(matrix) - 1; while hi >= lo: mid = (lo + hi) // 2
+    - the fact that the matrix is sorted suggests that there must be some way to use binary search to speed up our algorithm.
+  -
+
+- Approach: Divide and Conquer
+ - [240](https://leetcode.com/problems/search-a-2d-matrix-ii/) def search_rec(left, up, right, down):
+  - For a matrix, the left-up is smallest, while the bottom-right is largest
+ - []
 
 
 # Functions
@@ -80,6 +89,7 @@ Let's recap what we looked at in this explore card:
     |-------------------------|-----------------------------|--------------------------------|------------------|
     | sort the list           | xxx.sort()                  | sorted(xxx)                    |                  |
     | sort a list of lists    | xxx.sort(key=lambda x:x[0]) | sorted(xxx, key=lambda x: x[0])|                  |
+    | sort a list of lists based on a second list |  [x for _, x in sorted(zip(yyy, xxx))] | |                  |
     | insert items to list    | xxx.append(value)           | xxx.insert(index, value)       | xxx.extend(list) |
     | delete items from list  | xxx.remove(value)           | xxx.pop(index)                 | del xxx[index]   |
 

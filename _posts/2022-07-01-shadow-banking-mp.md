@@ -60,9 +60,51 @@ On July 14, 2014 the SEC issued final rules that were effective from October 14,
 
 Overnight Reverse Repo (RRP) is employed by Fed to drain excess liquidity from MMMFs.
 
-In concept, the ON RRP facility acts like interest on reserve balances (IORB) rate for a set of [nonbank money market participants](https://www.newyorkfed.org/markets/rrp_counterparties). That is, the Fed offers a broad range of financial institutions that are ineligible to earn IORB, an alternative risk-free investment option. Together, the IORB rate and the ON RRP set a floor under overnight rates, beneath which banks and non-bank financial institutions should be unwilling to invest funds in private markets.[6]
+In concept, the ON RRP facility acts like interest on reserve balances (IORB) rate for a set of [nonbank money market participants](https://www.newyorkfed.org/markets/rrp_counterparties). That is, the Fed offers a broad range of financial institutions that are ineligible to earn IORB, an alternative risk-free investment option. *Together, the IORB rate and the ON RRP set a floor under overnight rates, beneath which banks and non-bank financial institutions should be unwilling to invest funds in private markets*.[6]
+
+
+"interet rate cap"
+https://www.federalreserve.gov/econres/notes/feds-notes/what-happened-in-money-markets-in-september-2019-20200227.htm
+https://libertystreeteconomics.newyorkfed.org/2022/01/the-feds-latest-tool-a-standing-repo-facility/
 
 ## MMMFs and "Balance Sheet Normalization"
+
+[The financial crisis of 2008](https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008) and [the COVID-19 recession](https://en.wikipedia.org/wiki/COVID-19_recession) in 2020 had forced the Federal Reserve to purchase large quantities of financial assets, known as "Quantitative Easing" or [QE](https://www.visualcapitalist.com/the-feds-balance-sheet-the-other-exponential-curve/). This expansionary monetary policy has expanded the Fed’s balance sheet from less than $900 billion before 2008 to about $8.9 trillion as of May, 2022; The majority is US Treasuries of $5.7 trillion, followed by the agency mortgage-backed securities of $2.7 trillion.
+
+In the meantime, there're ongoing efforts to keep the Fed's balance sheet as lean as possible, beginning in January, 2014, known as [tapering](https://advisor.visualcapitalist.com/a-visual-introduction-to-fed-tapering/).
+
+<p align="center">
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=PrBp&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy">
+</iframe>
+</p>
+
+The critical question here was the long-run optimal size of its balance sheet. What we know today is that Fed decides to continue to implement monetary policy in a regime with an ample supply of reserves[7]. But before the choice becomes apparent, Fed was debating two options below:
+
+1. shrink the balance sheet to the pre-2008 level, and control short-term rates through the supply of reserve.
+
+2. keep the balance sheet reasonably large, and control the short-term rates through the Fed's administered rates (e.g., IOER for banks and ON RRP for MMFs).
+
+This [article](https://www.frbsf.org/economic-research/wp-content/uploads/sites/4/el2019-16.pdf) explains the different channel through which the monetary policies affect/control the short term rates. In short, the Option 1 is to use Quantity to affect Price, while the Option 2 it to use one Price to affect another Price.
+
+<p align="center">
+<a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
+  <img src="/images/posts_2022-07-01/fed_balance_sheet.png">
+</a>
+</p>
+
+[This](https://www.brookings.edu/blog/ben-bernanke/2016/09/02/should-the-fed-keep-its-balance-sheet-large/) and [this](https://www.sipa.columbia.edu/sites/default/files/greenwood_final.pdf) articulate the rationales of the chosen option (i.e., \#2), including
+
+- [+]There is a strong demand from the private sector for safe, liquid, short-term securities.
+  - The Govt. short-term claims (US Bills and Notes) should crowd out private-sector-created short claims (e.g., $1 NAV shares). Doing so would make the Fed take on more fiscal (interest-rate) risks.
+- [+]Only banks can earn interest on reserves (i.e., IOER).
+  - Fed should use Reverse Repurchase (RRP) facility should be used to control the short-term rate MMFs earn.
+- [+]Fed can better handle bank runs and/or MMF runs as a lender of last resort.
+  - The incentive to insufficient liquidity management in private sector could be curbed by regulations such as Liquidity Coverage Ratio ([LCR](https://www.bis.org/fsi/fsisummaries/lcr.htm)) and Net stable funding ratio([NSFS](https://www.bis.org/fsi/fsisummaries/nsfr.htm)).
+- [-]Fed is taking on more fiscal risk, as its balance sheet expands. (Chris Sims)
+  - Mitigant: the asset mix may reduce such risk ???? (Jeremy Stein)
+
+
+
 
 ### <ins>Tapering</ins>
 Fed Monthly Asset Purchase
@@ -103,7 +145,6 @@ Monthly Caps On SOMA Securities Reductions
 | Jun 2022  | Aug 2022 | $30 |            $17.5           |
 | Sep 2022  | TBA      | $60 |             $35            |
 
-https://www.federalreserve.gov/econres/notes/feds-notes/what-happened-in-money-markets-in-september-2019-20200227.htm
 
 Note:
 
@@ -123,3 +164,7 @@ For more data on MMFs, I'd recommend to check out the website of [the Office of 
 Options for Money Market Funds](https://home.treasury.gov/system/files/136/PWG-MMF-report-final-Dec-2020.pdf)
 
 [6] Liberty Street Economics, 2022, [How the Fed’s Overnight Reverse Repo Facility Works](https://libertystreeteconomics.newyorkfed.org/2022/01/how-the-feds-overnight-reverse-repo-facility-works/)
+
+[7] Board of Federal Reserve, [January 2019 FOMC meeting](https://www.federalreserve.gov/monetarypolicy/policy-normalization-discussions-communications-history.htm)
+
+[8] Ben Bernanke, 2016, [Should the Fed keep its balance sheet large?](https://www.brookings.edu/blog/ben-bernanke/2016/09/02/should-the-fed-keep-its-balance-sheet-large/)
