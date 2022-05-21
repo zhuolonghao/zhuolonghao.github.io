@@ -67,6 +67,7 @@ Let's recap what we looked at in this explore card:
 
 - Approach: Dynamic Programming
   - [53](https://leetcode.com/problems/maximum-subarray/): curSum = max(num, curSum + num) maxSum = max(maxSum, curSum)
+  - [238](https://leetcode.com/problems/product-of-array-except-self/): for i in range(1,len(nums)):  answer[i] = answer[i] * tmp; for i in reversed(range(len(nums))): answer[i] = answer[i] * tmp;
 
 - Approach: Binary search
 
@@ -91,6 +92,7 @@ Let's recap what we looked at in this explore card:
     | sort a list of lists    | xxx.sort(key=lambda x:x[0]) | sorted(xxx, key=lambda x: x[0])|                  |
     | sort a list of lists based on a second list |  [x for _, x in sorted(zip(yyy, xxx))] | |                  |
     | insert items to list    | xxx.append(value)           | xxx.insert(index, value)       | xxx.extend(list) |
+    | insert lists to list    | xxx.append(list)            | xxx.insert(index, list)        |                  |
     | delete items from list  | xxx.remove(value)           | xxx.pop(index)                 | del xxx[index]   |
 
 ### Set
