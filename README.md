@@ -16,3 +16,5 @@ On 4/14, re-sized the font for title, headings, and body.
 On 4/15, best way to modify the style is to start with the Inspect function of Chrome Browser; Changes are immediately reflected once parameters are changed. Additionally, [Markdown syntax](https://www.markdownguide.org/basic-syntax/) 
 
 On 5/1, posted my first econ blog. A lesson was learnt: if it ain't broke, don't fix it 
+
+on 5/20, tried to use latex in the Github Pages. A good reference was [this](https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/)
