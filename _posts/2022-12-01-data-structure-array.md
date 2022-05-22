@@ -10,23 +10,18 @@ title: "[Coding] Data Structure: List and String"
 
 # By Topic
 
-- String
+### String
+- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/): A palindrome is a string which reads the same in both directions. E.g., S = "aba" is a palindrome, SS = "abc" is not.
+
+### Array
 
 # By Approach
 
 ### Dynamic Programming
 
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
- - longest common substrings:  
- ```
- dp = [ [0] * (n+1) for _ in range(n+1)];
- dp[i][j] = 1 + dp[i-1][j-1]; 
- ans = s[(i-dp[i][j]):i]
- ```
-
-
-
-
+  - longest common substrings:```dp = [ [0] * (n+1) for _ in range(n+1)]; dp[i][j] = 1 + dp[i-1][j-1]; ans = s[(i-dp[i][j]):i]```
+  - dynamic programing: ```dp = [ [0] * (n) for _ in range(n)];  dp[i][i] = 1;  if (s[i] == s[j]) & (dp[i+1][j-1] == 1); ans = s[i:j+1]```
 
 
 
