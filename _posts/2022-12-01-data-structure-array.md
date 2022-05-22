@@ -10,6 +10,76 @@ title: "[Coding] Data Structure: List and String"
 
 # By Topic
 
+- String
+
+# By Approach
+
+### Dynamic Programming
+
+- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+ - longest common substrings:  
+ ```
+ dp = [ [0] * (n+1) for _ in range(n+1)];
+ dp[i][j] = 1 + dp[i-1][j-1]; 
+ ans = s[(i-dp[i][j]):i]
+ ```
+
+
+
+
+
+
+
+# Functions
+
+### List
+
+    | Description             | Function-1                  | Function-2                     |       Function-3 |
+    |-------------------------|-----------------------------|--------------------------------|------------------|
+    | sort the list           | xxx.sort()                  | sorted(xxx)                    |                  |
+    | sort a list of lists    | xxx.sort(key=lambda x:x[0]) | sorted(xxx, key=lambda x: x[0])|                  |
+    | sort a list of lists based on a second list |  [x for _, x in sorted(zip(yyy, xxx))] | |                  |
+    | insert items to list    | xxx.append(value)           | xxx.insert(index, value)       | xxx.extend(list) |
+    | insert lists to list    | xxx.append(list)            | xxx.insert(index, list)        |                  |
+    | delete items from list  | xxx.remove(value)           | xxx.pop(index)                 | del xxx[index]   |
+
+### Set
+    | Description             | Function-1        | Function-2               |
+    |-------------------------|-------------------|--------------------------|
+    | set: s belongs to t     | s.issubset(t)     | s <= t                   |                  
+    | set: union              | s.union(t)        | s \| t                   |                  
+    | set: intersection       | s.intersection(t) | s & t                    |                  
+    | set: x in s but not in t| s.diference(t)    | s - t                    |                  
+
+### string
+    | Description                        | Function-1                        | Function-2                              |
+    |------------------------------------|-----------------------------------|-----------------------------------------|
+    | return index of "chars" in string  | s.find("chars") from left to right|  s.rfind("charts"), from right to left  |                
+    | split a string to a list of letters| s.split()                         |                                         |
+    | join a list of strings to one      | " ".join(s_list)                  |                                         |
+    | reverse a string, eg., s = 'abc'   | reversed = s[::-1]                |                                         |
+
+### Package: colletions
+
+| Functions                        | Outcome or Description                                                                     |
+|------------------------------------|--------------------------------------------------------------------------------|
+| _dict = collections.Counter(nums)  | collections.Counter("Hello") = Counter({'l': 2, 'H': 1, 'e': 1, 'o': 1})       |
+| _dict = collections.defaultdict(int) | create a dictionary whose values are integer |
+| _dict = collections.defaultdict(list) | create a dictionary whose values are list   |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Let's recap what we looked at in this explore card:
 
 - intro: accessing, capacity vs length
@@ -30,7 +100,15 @@ Let's recap what we looked at in this explore card:
 - in-place algorithms
   - [1299](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/):
 
-# By Approach
+
+
+
+
+
+
+
+
+
 
 - Approach: One Pass, time complexity = O(n)
   - [485](https://leetcode.com/problems/max-consecutive-ones/): curr_ and max_
@@ -80,38 +158,3 @@ Let's recap what we looked at in this explore card:
  - [240](https://leetcode.com/problems/search-a-2d-matrix-ii/) def search_rec(left, up, right, down):
   - For a matrix, the left-up is smallest, while the bottom-right is largest
  - []
-
-
-# Functions
-
-### List
-
-    | Description             | Function-1                  | Function-2                     |       Function-3 |
-    |-------------------------|-----------------------------|--------------------------------|------------------|
-    | sort the list           | xxx.sort()                  | sorted(xxx)                    |                  |
-    | sort a list of lists    | xxx.sort(key=lambda x:x[0]) | sorted(xxx, key=lambda x: x[0])|                  |
-    | sort a list of lists based on a second list |  [x for _, x in sorted(zip(yyy, xxx))] | |                  |
-    | insert items to list    | xxx.append(value)           | xxx.insert(index, value)       | xxx.extend(list) |
-    | insert lists to list    | xxx.append(list)            | xxx.insert(index, list)        |                  |
-    | delete items from list  | xxx.remove(value)           | xxx.pop(index)                 | del xxx[index]   |
-
-### Set
-    | Description             | Function-1        | Function-2               |
-    |-------------------------|-------------------|--------------------------|
-    | set: s belongs to t     | s.issubset(t)     | s <= t                   |                  
-    | set: union              | s.union(t)        | s \| t                   |                  
-    | set: intersection       | s.intersection(t) | s & t                    |                  
-    | set: x in s but not in t| s.diference(t)    | s - t                    |                  
-
-### string
-    | Description                        | Function-1                        | Function-2                              |
-    |------------------------------------|-----------------------------------|-----------------------------------------|
-    | return index of "chars" in string  | s.find("chars") from left to right|  s.rfind("charts"), from right to left  |                
-    | split a string to a list of letters| s.split()                         |                                         |
-    | join a list of strings to one      | " ".join(s_list)                  |                                         |
-
-### Package: colletions
-
-| Description                        | Function-1                                                                     |
-|------------------------------------|--------------------------------------------------------------------------------|
-| _dict = collections.Counter(nums)  | collections.Counter("Hello") = Counter({'l': 2, 'H': 1, 'e': 1, 'o': 1})       |

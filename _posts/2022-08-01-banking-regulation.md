@@ -40,7 +40,7 @@ Capitals are predominantly in the form of equity shares and retained earnings th
 The 2007-09 Great Financial Crisis prompted a series of reforms in defining/refining the capital requirement for banks; known as the regulatory capital. It is the amount of capital that a bank has to have maintained, and often expressed as the ratio of equity as a percentage of risk-weighted assets.
 
 ### *CET-1 Ratio*
-The most important capital adequacy ratio is the CET-1 Ratio, the ratio of common equity tier-1 capital over the risk-weighted assets (RWA). RWA could be calculated in two ways, depending on the use of a prescribed risk weight schedule by regulators (i.e., standardized) or the use of internal rating system (i.e., advanced). 
+The most important capital adequacy ratio is the CET-1 Ratio, the ratio of common equity tier-1 capital over the risk-weighted assets (RWA). RWA could be calculated in two ways, depending on the use of a prescribed risk weight schedule by regulators (i.e., standardized) or the use of internal rating system (i.e., advanced).
 
 JPM, for example, has the advanced CET-1 Ratio of 12.7\% that is 1.2% higher than the required level.
 
@@ -58,7 +58,7 @@ It's interesting to know a few things about internal risk rating system;
 
 <p align="center">
 <a href="https://jpmorganchaseco.gcs-web.com/node/434316/html">
-  <img src="/images/posts_2022-08-01 /required_cet1.png">
+  <img src="/images/posts_2022-08-01 /required_cet1.png" width="1000">
 </a>
 </p>
 
@@ -74,8 +74,26 @@ Key components in the required capital are explained below;
 
 
 ### *SLR*
+[SLR](https://www.davispolk.com/sites/default/files/09.12.14.Supplementary_Leverage_Ratio.pdf) is different from CET-1 ratio b/c it takes into account both on- and off- balance sheet risk exposures (i.e., total leverage exposure) for capital requirement. According, the capital cushion is enlarged to all Tier-1 capital. The G-SIB banks must maintain a \> 5% SLR on a consolidated basis.
+
+Below shows WFC scored SLR at 6.2%, well above the required minimum.
+
+<p align="center">
+<a href="https://www08.wellsfargomedia.com/assets/pdf/about/investor-relations/basel-disclosures/2022-first-quarter-pillar-3-disclosure.pdf">
+  <img src="/images/posts_2022-08-01 /SLR.png" width="1000">
+</a>
+</p>
 
 ### *TLAC*
+For G-SIB banks, they are required additionally to have a minimum amount of equity and *unsecured long-term debt*, known as [TLAC](https://www.bis.org/fsi/fsisummaries/tlac.htm). The objective is to have an orderly resolution by making debt/equity holders absorb losses (enabling a "bail-in"), instead of using public funds (conducting a "bailout").
+
+Again, WFC remain compliant with TLAC rules in both RWA and total leverage exposure.   
+
+<p align="center">
+<a href="https://www08.wellsfargomedia.com/assets/pdf/about/investor-relations/basel-disclosures/2022-first-quarter-pillar-3-disclosure.pdf">
+  <img src="/images/posts_2022-08-01 /TLAC.png" width="1000">
+</a>
+</p>
 
 ## Liquidity
 
