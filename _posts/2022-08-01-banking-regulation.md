@@ -12,7 +12,7 @@ title: "[MP] Banking Regulations: Capital and Liquidity"
 
 ― **Ben S. Bernanke**, at the 2010 AEA meeting, Atlanta, GA
 
-The Federal Reserve influences the macroeconomics throught its conventional monetary policies (e.g., FFT) as well as unconventional measures (e.g., QE and QT). Apart from these tools, the Fed also exerts regulations on the banking industry as an response to the 2008's crisis. As Bank of England explained why central bank regulates banks, it said "When a bank fails, it can create problems for the wider economy."
+The Federal Reserve influences the macroeconomics through its conventional monetary policies (e.g., FFT) as well as unconventional measures (e.g., QE and QT). Apart from these tools, the Fed also exerts regulations on the banking industry as an response to the 2008's crisis. As Bank of England explained why central bank regulates banks, it said "When a bank fails, it can create problems for the wider economy."
 
 Currently, the focuses are to ensure capital adequacy and improve liquidity position; the former aims to curb the excessive risk-taking behaviors, while the latter helps reduce the chances of bank runs during the stress periods. In this post, i will discuss the major regulatory metrics below used to evaluate banks' capital and liquidity situation.
 
@@ -37,30 +37,32 @@ $$
 
 Capitals are predominantly in the form of equity shares and retained earnings that can absorb losses in the first place.
 
-The 2007-09 Great Financial Crisis prompted a series of reforms in defining/refining the capital requirement for banks; known as the regulatory capital. It is the amount of capital that a bank has to have maintain, and often expressed as the ratio of equity as a percentage of risk-weighted assets.
+The 2007-09 Great Financial Crisis prompted a series of reforms in defining/refining the capital requirement for banks; known as the regulatory capital. It is the amount of capital that a bank has to have maintained, and often expressed as the ratio of equity as a percentage of risk-weighted assets.
 
 ### *CET-1 Ratio*
-The most important capital adequacy ratio is the CET-1 Ratio, the ratio of common equity tier-1 capital over the risk-weighted assets (RWA). RWA could be calculated in two ways, depending on the use of a prescribed risk weight schedule by regulators (i.e., standardized) or the use of internal rating system (i.e., advanced). JPM, for example, has the advanced CET-1 Ratio of 12.7\% that is 1.2% higher than the required level.
+The most important capital adequacy ratio is the CET-1 Ratio, the ratio of common equity tier-1 capital over the risk-weighted assets (RWA). RWA could be calculated in two ways, depending on the use of a prescribed risk weight schedule by regulators (i.e., standardized) or the use of internal rating system (i.e., advanced). 
+
+JPM, for example, has the advanced CET-1 Ratio of 12.7\% that is 1.2% higher than the required level.
 
 <p align="center">
-<a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
-  <img src="/images/posts_2022-08-01/JPM_CET1.png">
+<a href="https://jpmorganchaseco.gcs-web.com/static-files/81a917bc-b9e1-42e6-bc7d-62ca47190b4a">
+  <img src="/images/posts_2022-08-01 /JPM_CET1.png" width="1000">
 </a>
 </p>
 
 It's interesting to know a few things about internal risk rating system;
 
-1. Different types of risk rating methodologies may co-exist for a bank. Bank of America, for example, recognized publicly that they are using 1) internally developed scorecards, 2) external mappings, and 3) judgmental approach at the same time.
+1. Different types of risk rating methodologies may co-exist for a bank. Bank of America, for example, [recognized publicly](https://investor.bankofamerica.com/regulatory-and-other-filings/basel-pillar-3-disclosures) that they are using 1) internally developed scorecards, 2) external mappings, and 3) judgmental approach at the same time.
 
 2. PD is an through-the-cycle (TTC) estimate of the probability that an obligor will default over a one-year horizon, EAD is an point-in-time (PIT) estimate of the amount that would be owed to the bank if the obligor were to default, and LGD is also an PIT estimate of the portion of the EAD that would be lost in a stressed environment with high default rates.    
 
 <p align="center">
-<a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
-  <img src="/images/posts_2022-08-01/required_cet1.png">
+<a href="https://jpmorganchaseco.gcs-web.com/node/434316/html">
+  <img src="/images/posts_2022-08-01 /required_cet1.png">
 </a>
 </p>
 
-Below explains briefly each component above in the required capital;
+Key components in the required capital are explained below;
 
 1. [G-SIB capital surcharge](https://www.bis.org/bcbs/gsib/index.htm) is the greater of 1) the value considering the bank's size, interconnectedness, cross-jurisdictional activity, substitutability, and complexity, and 2) similar inputs but replaces substitutability with use of short-term wholesale funding.
 
