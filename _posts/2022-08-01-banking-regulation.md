@@ -12,12 +12,11 @@ title: "[MP] Banking Regulations: Capital and Liquidity"
 
 ― **Ben S. Bernanke**, at the 2010 AEA meeting, Atlanta, GA
 
-The Federal Reserve influences the macroeconomics throught its conventional monetary policies (e.g., FFT) as well as unconventional measures (e.g., QE and QT). Apart from these tools, the Fed also exerts regulations on the banking industy as an response to the 2008's crisis. Two main focuses of these regulations are to ensure capital adequacy and improve liquidity poistion; the former aims to curb the excessive risk-taking behaviors, while the latter helps reduce the chances of bank runs during the stress periods. 
+The Federal Reserve influences the macroeconomics throught its conventional monetary policies (e.g., FFT) as well as unconventional measures (e.g., QE and QT). Apart from these tools, the Fed also exerts regulations on the banking industry as an response to the 2008's crisis. As Bank of England explained why central bank regulates banks, it said "When a bank fails, it can create problems for the wider economy."
 
-In this post, i will discuss the major regulatory metrics below used to evaluate banks' capital and liquidity situation. 
+Currently, the focuses are to ensure capital adequacy and improve liquidity position; the former aims to curb the excessive risk-taking behaviors, while the latter helps reduce the chances of bank runs during the stress periods. In this post, i will discuss the major regulatory metrics below used to evaluate banks' capital and liquidity situation.
 
-
-$$ 
+$$
 \begin{split}
 \text{Common Equity Tier-1 Ratio} \quad &= \quad \frac{\text{Common Equity Tier-1 Capital}}{\text{Risk Weighted Assets}} \\
 \\
@@ -34,10 +33,43 @@ $$
 $$
 
 
-
 ## Capital
 
+Capitals are predominantly in the form of equity shares and retained earnings that can absorb losses in the first place.
+
+The 2007-09 Great Financial Crisis prompted a series of reforms in defining/refining the capital requirement for banks; known as the regulatory capital. It is the amount of capital that a bank has to have maintain, and often expressed as the ratio of equity as a percentage of risk-weighted assets.
+
 ### *CET-1 Ratio*
+The most important capital adequacy ratio is the CET-1 Ratio, the ratio of common equity tier-1 capital over the risk-weighted assets (RWA). RWA could be calculated in two ways, depending on the use of a prescribed risk weight schedule by regulators (i.e., standardized) or the use of internal rating system (i.e., advanced). JPM, for example, has the advanced CET-1 Ratio of 12.7\% that is 1.2% higher than the required level.
+
+<p align="center">
+<a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
+  <img src="/images/posts_2022-08-01/JPM_CET1.png">
+</a>
+</p>
+
+It's interesting to know a few things about internal risk rating system;
+
+1. Different types of risk rating methodologies may co-exist for a bank. Bank of America, for example, recognized publicly that they are using 1) internally developed scorecards, 2) external mappings, and 3) judgmental approach at the same time.
+
+2. PD is an through-the-cycle (TTC) estimate of the probability that an obligor will default over a one-year horizon, EAD is an point-in-time (PIT) estimate of the amount that would be owed to the bank if the obligor were to default, and LGD is also an PIT estimate of the portion of the EAD that would be lost in a stressed environment with high default rates.    
+
+<p align="center">
+<a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
+  <img src="/images/posts_2022-08-01/required_cet1.png">
+</a>
+</p>
+
+Below explains briefly each component above in the required capital;
+
+1. [G-SIB capital surcharge](https://www.bis.org/bcbs/gsib/index.htm) is the greater of 1) the value considering the bank's size, interconnectedness, cross-jurisdictional activity, substitutability, and complexity, and 2) similar inputs but replaces substitutability with use of short-term wholesale funding.
+
+2. [Stress Capital Buffer (SCB)](https://www.bis.org/review/r190905b.htm) is a concept only for the standardized CET-1 ratio. It is a bank-specific buffer based on its most recent stress test results (i.e., the decrease in risk capital ratio under the severely adverse scenario), plus four quarters of planned common stocks dividends.
+
+3. [Capital Conservation Buffer (CCB)](https://www.bis.org/fsi/fsisummaries/b3_capital.htm) is a concept only for the advanced CET-1 ratio, and set at 2.5% of total risk-weighted assets. It should be regarded as an additional layer of usable capital that can be drawn down when losses are incurred.
+
+4. [Countercyclical buffer (CCyB)](https://www.bis.org/fsi/fsisummaries/b3_capital.htm) aims to protect the banking sector from periods of excess aggregate credit growth that have often been associated with the build-up of system-wide risks. The CCyB was 0.00% as of March-2022, and can go up to 2.50% at the Fed's discretion.    
+
 
 ### *SLR*
 
@@ -50,11 +82,7 @@ $$
 ### *NSFR*
 
 
-<p align="center">
-<a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
-  <img src="/images/posts_2022-07-01/one_mmmf.png" width="300">
-</a>
-</p>
+
 
 **Reference**
 
