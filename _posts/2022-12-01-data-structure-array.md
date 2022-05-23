@@ -13,6 +13,9 @@ title: "[Coding] Data Structure: List and String"
 ### String
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/): A palindrome is a string which reads the same in both directions. E.g., S = "aba" is a palindrome, SS = "abc" is not.
 
+- [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/): A common subsequence is a sequence of letters that appears in both strings by its order. E.g., s1 = "acde", s2 = "ace", ans = "ace". Noted it's different from the substring (should be "ac" only).  
+
+
 ### Array
 
 # By Approach
@@ -23,40 +26,46 @@ title: "[Coding] Data Structure: List and String"
   - longest common substrings:```dp = [ [0] * (n+1) for _ in range(n+1)]; dp[i][j] = 1 + dp[i-1][j-1]; ans = s[(i-dp[i][j]):i]```
   - dynamic programing: ```dp = [ [0] * (n) for _ in range(n)];  dp[i][i] = 1;  if (s[i] == s[j]) & (dp[i+1][j-1] == 1); ans = s[i:j+1]```
 
+- [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) ``` dp = [[0]* (ncol+1) for _ in range(nrow+1)]; dp[i][j] = 1 + dp[i-1][j-1]; dp[i][j] = max(dp[i][j-1], dp[i-1][j])```
+
+### Recursive Programming
+
+- [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
 
 # Functions
 
 ### List
 
-    | Description             | Function-1                  | Function-2                     |       Function-3 |
-    |-------------------------|-----------------------------|--------------------------------|------------------|
-    | sort the list           | xxx.sort()                  | sorted(xxx)                    |                  |
-    | sort a list of lists    | xxx.sort(key=lambda x:x[0]) | sorted(xxx, key=lambda x: x[0])|                  |
-    | sort a list of lists based on a second list |  [x for _, x in sorted(zip(yyy, xxx))] | |                  |
-    | insert items to list    | xxx.append(value)           | xxx.insert(index, value)       | xxx.extend(list) |
-    | insert lists to list    | xxx.append(list)            | xxx.insert(index, list)        |                  |
-    | delete items from list  | xxx.remove(value)           | xxx.pop(index)                 | del xxx[index]   |
+| Description             | Function-1                  | Function-2                     |       Function-3 |
+|-------------------------|-----------------------------|--------------------------------|------------------|
+| sort the list           | xxx.sort()                  | sorted(xxx)                    |                  |
+| sort a list of lists    | xxx.sort(key=lambda x:x[0]) | sorted(xxx, key=lambda x: x[0])|                  |
+| sort a list of lists based on a second list |  [x for _, x in sorted(zip(yyy, xxx))] | |                  |
+| insert items to list    | xxx.append(value)           | xxx.insert(index, value)       | xxx.extend(list) |
+| insert lists to list    | xxx.append(list)            | xxx.insert(index, list)        |                  |
+| delete items from list  | xxx.remove(value)           | xxx.pop(index)                 | del xxx[index]   |
+
 
 ### Set
-    | Description             | Function-1        | Function-2               |
-    |-------------------------|-------------------|--------------------------|
-    | set: s belongs to t     | s.issubset(t)     | s <= t                   |                  
-    | set: union              | s.union(t)        | s \| t                   |                  
-    | set: intersection       | s.intersection(t) | s & t                    |                  
-    | set: x in s but not in t| s.diference(t)    | s - t                    |                  
+| Description             | Function-1        | Function-2               |
+|-------------------------|-------------------|--------------------------|
+| set: s belongs to t | s.issubset(t)     | s <= t                   |                  
+| set: union | s.union(t)  | s \| t   |                   
+| set: intersection  | s.intersection(t) | s & t                    |                  
+| set: x in s but not in t| s.diference(t)    | s - t                    |                  
 
 ### string
-    | Description                        | Function-1                        | Function-2                              |
-    |------------------------------------|-----------------------------------|-----------------------------------------|
-    | return index of "chars" in string  | s.find("chars") from left to right|  s.rfind("charts"), from right to left  |                
-    | split a string to a list of letters| s.split()                         |                                         |
-    | join a list of strings to one      | " ".join(s_list)                  |                                         |
-    | reverse a string, eg., s = 'abc'   | reversed = s[::-1]                |                                         |
+| Description                        | Function-1                        | Function-2                              |
+|------------------------------------|-----------------------------------|-----------------------------------------|
+| return index of "chars" in string  | s.find("chars") from left to right|  s.rfind("charts"), from right to left  |                
+| split a string to a list of letters| s.split()                         |                                         |
+| join a list of strings to one      | " ".join(s_list)                  |                                         |
+| reverse a string, eg., s = 'abc'   | reversed = s[::-1]                |                                         |
 
 ### Package: colletions
 
-| Functions                        | Outcome or Description                                                                     |
+| Functions                          | Outcome or Description                                                         |
 |------------------------------------|--------------------------------------------------------------------------------|
 | _dict = collections.Counter(nums)  | collections.Counter("Hello") = Counter({'l': 2, 'H': 1, 'e': 1, 'o': 1})       |
 | _dict = collections.defaultdict(int) | create a dictionary whose values are integer |

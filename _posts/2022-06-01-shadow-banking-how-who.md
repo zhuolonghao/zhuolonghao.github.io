@@ -8,13 +8,13 @@ title: "[MP] Shadow Banking: Who and How"
 
 <p class="meta">June 2022 - Charlotte, NC</p>
 
-As discussed in the last post, **Shadow banks** or **Narrow Measure of NBFI** are financial intermediaries that involve *liquidity*, *maturity* and *credit* transformation as well as the build-up of *leverage*, without explicit access to central bank liquidity or public sector credit guarantees[1].  
+As discussed in the [last post](https://zhuolonghao.github.io/2022/05/01/shadow-banking-what-why.html), **Shadow banks** or **Narrow Measure of NBFI** are financial intermediaries that involve *liquidity*, *maturity* and *credit* transformation as well as the build-up of *leverage*, without explicit access to central bank liquidity or public sector credit guarantees[1].  
 
-In this post, I'd continue to discuss who are key participants in the shadow banking system and how are they chained up to grow strongly in recent decades. My discussion includes a summary of this brilliant work [1], as well as a case study.
+In this post, I'd continue to discuss who key participants are in the shadow banking system and how they are chained up to grow strongly in recent decades. My discussion includes a summary of this brilliant work [1], as well as a case study.
 
 ## How did the shadow banking system work?
 
-Unlike traditional banks who bring deposit-taking and credit-lending under one roof, the shadow banking system is **de-centralized** in a way that the credit intermediation is performed through "a chain of nonbank financial intermediaries in a multiple process"[1] as illustrated below.  
+Unlike traditional banks who bring deposit-taking and credit-lending under one roof, the shadow banking system is **de-centralized**, where the credit intermediation is performed by  "a chain of nonbank financial intermediaries"[1].  
 
 
 <p align="center">
@@ -24,16 +24,14 @@ Unlike traditional banks who bring deposit-taking and credit-lending under one r
 </p>
 
 
+In this multistage process, risky, long-term loans are transformed into seemingly credit-risk free, short-term, money like instruments, ending in a $1 net value shares issued by money market mutual funds and held by households[1]. Two distinctive features here are securitization and wholesale funding; the securitization makes illiquid debts more marketable, while the wholesale funding makes the business model viable in the normal periods.
 
-
-"The shadow banking system transforms risky, long-term loans into seemingly credit-risk free, short-term, money like instruments, ending in wholesale funding through stable net value shares issued by money market mutual funds"[1]. The first and last node pinpoint two distinctive features: securitization and wholesale funding. Also noted that the distance between two nodes could be varying, depending on complexity of the credit intermediation.
-
-As a rule-of-thumb, "the intermediation of low-quality long-term loans (e.g., non-conforming mortgages) involved all seven or more steps, whereas the intermediation of high-quality short- to medium-term loans (e.g., credit card and auto loans) involved usually three steps and rarely more"[1].
+The longer process means more sophisticated credit structuring. For example, the intermediation of high-quality short- to medium-term loans (e.g., credit card and auto loans) involved usually three steps and rarely more"[1].
 
 
 ## Who are shadow banks?  
 
-The shadow banking system is made of multiple niche players, each specializing in a narrow area of credit intermediation. They function like a team, with each member acquiring specific assets using specific funding techniques, as reflected on their balance sheets.
+They're niche players working closely as a team. Each specializes in a narrow area of credit intermediations; acquiring specific assets by using specific funding techniques.
 
 <a href="https://www.newyorkfed.org/medialibrary/media/research/economists/adrian/1306adri_A6.pdf">
   <img src="/images/posts_2022-06-01/NBFIs_Fed_who.png">
@@ -43,10 +41,10 @@ The shadow banking system is made of multiple niche players, each specializing i
 
 ## Case Study: Auto Loan From Toyota Dealership
 
-Let's take a look at how shadow banks help financing the purchase of a Toyota vehicle.
+Say a consumer needs to borrow money to buy a car at the Toyota dealership. She may get an auto loan from the Toyota Motor Credit Corp or TMCC, a financial arm of the automaker. But where does TMCC get the money? Below is a sample of firms that help complete transactions.
 
 
-| Step | Function          | Shadow Banks Type             | Counterparaty Name                         | Funding Techniques |
+| Step | Function          | Shadow Banks Type             |  Firm                          | Funding Techniques |
 |------|-------------------|-------------------------------|--------------------------------------------|--------------------|
 | 1    | Loan Origination  | Captive Finance Company       | Toyota Motor Credit Corp.                  | CP, MTN, BOND      |
 | 2    | Loan Warehousing  | Single-seller Conduit         | Toyota Auto Receivables LLC                | ABCP               |
@@ -54,8 +52,7 @@ Let's take a look at how shadow banks help financing the purchase of a Toyota ve
 | 4    | Wholesale Funding | Ultra Short Bond Fund         | Putnam Ultra Short Duration Income Fund    | $1 NAV Shares      |
 | 4    | Wholesale Funding | Fixed Income Mutual Fund      | Lord Abbett Core Fixed Income Fund Class A | CUSIP = 543916878  |
 
-
-Say a consumer financed her new car purchase by an auto loan from the Toyota dealership, it's highly likely she was borrowing from the Toyota Motor Credit Corp or TMCC, a financial arm of the automaker. As of Mar-2021, TMCC has $133bn of total assets, of which $109bn or (82%) is funded by debts, $85bn coming from unsecured debts and the rest $24bn from secured debts, as displayed below.
+As the loan originator, TMCC has $133bn of total assets, of which $109bn or (82%) is funded by debts, $85bn coming from unsecured debts and the rest $24bn from secured debts, as of Mar-2021.
 
 <p align="center">
   <a href="https://www.toyotafinancial.com/content/dam/tmcc-webcommons/toyotafinancial/documents/investor-relations/sec-filings/2021/Annual%20Reports%20on%20Form%2010-K/june/FY%202021%20ended%20March%2031,%202021.html#CONSOLIDATED_BALANCE_SHEET">
@@ -63,11 +60,18 @@ Say a consumer financed her new car purchase by an auto loan from the Toyota dea
   </a>
 </p>
 
-Thanks to its [investment-grade](https://global.toyota/en/ir/stock/rating/) credit rating, TMCC was able to use unsecured debts as major funding source. For example, TMCC relies on commercial papers as an importance source for working capital. The market confidence in these CPs are further boosted by its abundant liquidity from banks' credit facilities, that are used in support of TMCC's CP issuances and rollover. Some of these high-quality high-yield securities could end up being held by prime money market funds like [*Putnam Ultra Short Duration Income Fund*](https://www.putnam.com/individual/mutual-funds/funds/746-ultra-short-duration-income-fund/A).
+Its investment-graded credit rating grant TMCC the privilege in accessing diverse sources for funding, including short-term unsecured commercial papers backstopped by its relationship banks' credit facilities.
 
-At the same time, TMCC taps asset-back securities(ABS) through the shadow banking system's channels: To isolate its securitization activity from its loan operations, it created variable interest entities(VIEs) for pooling loans receivables and issuing ABS on the behalf of TMCC.
+In addition, TMCC uses asset-back securities(ABS) for medium-term funding needs. This is where shadow banks are at service.
 
-One such example is *Toyota Auto Receivables LLC.* and *TOYOTA AUTO RECEIVABLES 2021-A OWNER TRUST*, who issued a $1,620MM asset-based security named *TOYOTA AUTO RECEIVABLES 2021-A OWNER TRUST* (Yes, it has the exactly same name as one of two VIEs). From the Prospectus (Form 428B5) of the ABS, this deal started with the TMCC transfering the right of collecting receivables to the LLC., who in turn tasked the Trust for securitization; the Trust is structuring  loans' principal and interest into multiple tranches or classes of debts that customize risk, rating, timing of repayment, and lien seniority on the collateral, using credit enhancement techniques like a reserve account, overcollateralization, and subordinations. Once it's done, a new ABS was created and handed over back to the LLC. With the help of underwriters like *MUFG* and *BMO Capital Markets*, the LLC could market and distribute the security to a broad spectrum of institutional and retail investors.
+One ABS example is Toyota Auto Receivables LLC. (or LLC) and TOYOTA AUTO RECEIVABLES 2021-A OWNER TRUST (or Trust), who issued a $1,620MM security named *TOYOTA AUTO RECEIVABLES 2021-A OWNER TRUST* (Yes, it has the exactly same name as one of two VIEs). The Prospectus (Form 428B5) exhibits all the relevant stakeholders in the deal:
+
+1. TMCC transfering the right of collecting receivables to the LLC.,
+2. LLC. tasking the Trust for securitization;
+3. Trust structuring cashflow from loans (e.g., principal and interests) into multiple tranches or classes of debts that customize risk, rating, timing of repayment, and lien seniority on the collateral, using credit enhancement techniques like a reserve account, overcollateralization, and subordinations.
+4. Trust handing back the newly created security to the LLC.
+5. LLC. recruiting underwriters like *MUFG* and *BMO Capital Markets* for marketing and sale
+6. Mutual Funds like [*Lord Abbett Core Fixed Income Fund Class A*](https://www.lordabbett.com/en/strategies/mutual-funds/core-fixed-income-fund.class-a.html) and [*Putnam Ultra Short Duration Income Fund*](https://www.putnam.com/individual/mutual-funds/funds/746-ultra-short-duration-income-fund/A) buying/trading different tranches of the ABS.
 
 
 <p align="center">
@@ -75,11 +79,6 @@ One such example is *Toyota Auto Receivables LLC.* and *TOYOTA AUTO RECEIVABLES 
   <img src="/images/posts_2022-06-01/NBFIs_TMCC_ABS.png", height="600">
 </a>
 </p>
-
-<br/>
-
-For example, the two largest institutional investors are [*Lord Abbett Core Fixed Income Fund Class A*](https://www.lordabbett.com/en/strategies/mutual-funds/core-fixed-income-fund.class-a.html) and [*Putnam Ultra Short Duration Income Fund*](https://www.putnam.com/individual/mutual-funds/funds/746-ultra-short-duration-income-fund/A). Details can be found in each fund's page.
-
 
 Note:
 
