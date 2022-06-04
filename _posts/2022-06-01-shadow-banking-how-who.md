@@ -44,8 +44,8 @@ They are niche players, each specializing in a narrow area of credit intermediat
 Say a consumer needs to borrow money to buy a car at the Toyota dealership. She may get an auto loan from the Toyota Motor Credit Corp or TMCC, a financial arm of the automaker. But where does TMCC get the money? Below is a sample of firms that help complete transactions.
 
 
-| Step | Function          | Shadow Banks Type             |  Firm                          | Funding Techniques |
-|------|-------------------|-------------------------------|--------------------------------------------|--------------------|
+| Step | Function | Shadow Banks Type |Firm| Funding Techniques |
+|---|---|---|---|---|
 | 1    | Loan Origination  | Captive Finance Company       | Toyota Motor Credit Corp.                  | CP, MTN, BOND      |
 | 2    | Loan Warehousing  | Single-seller Conduit         | Toyota Auto Receivables LLC                | ABCP               |
 | 3    | ABS Issuance      | Special-purpose Vehicle (SPV) | Toyota Auto Receivables 2021-A Owner Trust | ABS                |
