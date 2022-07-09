@@ -8,9 +8,16 @@ title: "[MP] Shadow Banking: Money Market Funds and Monetary Policy"
 
 <p class="meta">June 2022 - Charlotte, NC</p>
 
-In this post, I'd narrow down the focus to money market mutual funds (MMFs) and its role in the Fed's ["Balance Sheet Normarlization"](https://www.federalreserve.gov/monetarypolicy/policy-normalization-discussions-communications-history.htm).
+In this post, let's look at money market mutual funds (MMFs) and its role in the Fed's ["Balance Sheet Normarlization"](https://www.federalreserve.gov/monetarypolicy/policy-normalization-discussions-communications-history.htm).
 
-A MMF is a kind of mutual fund that issues shares to investors and invests in a diverse set of short-term (often less than 1-year) assets such as US Treasuries and commercial papers. [Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), for example, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022.
+
+## What Is Money Market Fund(MMF)?
+
+A MMF is a kind of mutual fund that
+- issues shares to retail and institutional investors.  
+- invests in short-term (often < 1 year) assets such as US Treasuries and commercial papers.
+
+[Fidelity Money Market Fund](https://fundresearch.fidelity.com/mutual-funds/summary/31617H201), for example, holds assets in commercial papers (26.43%, combined), certificate of deposit (22.88%), Repo (19.16%) and etc, as of April-2022.
 
 <p align="center">
 <a href="https://fundresearch.fidelity.com/mutual-funds/composition/31617H201">
@@ -18,20 +25,25 @@ A MMF is a kind of mutual fund that issues shares to investors and invests in a 
 </a>
 </p>
 
-The portfolio composition is sensitive to market condition and subject to change at the discretion of the fund managers. A year earlier, for instance, the fund allocated more in CP at 41.2%, while less in CDs at 12.7%, partly due to more credit appetite and ample liquidity.
+The portfolio composition is subject to change at the discretion of the fund managers. For instance, one year earlier, the fund invested more in risker CP (41.2%) and less in low-yield CDs (12.7%), as a result of benign economic environment and low market volatility.
 
 ## Money Market Fund Industry
 
-Now, let's turn to the portfolio composition of the whole MMFs industry and how it evolves over the time.  
+Now, let's turn to the whole MMFs industry and how its composition evolves over the time.  
 
 <p align="center">
-<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=Pgow&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy">
-</iframe>
+<a href="https://fred.stlouisfed.org/graph/?g=Pgow">
+  <img src="/images/posts_2022-07-01/MMMF.png">
+</a>
 </p>
 
-### <ins>Reserve Primary Fund and two Reforms</ins>
+Like other financial institutions(FI), the 2008 GFC has fundamentally changed the MMF industry.
+- The share of risky assets decreased significantly post 2008.  
+- Safe assets like US Treasury and Agency securities are the lion's share today.    
 
-A key event that has a profound influence on the industry is the unprecedented collapse of the Reserve Primary Fund.
+One key event that has a profound influence on the industry is the unprecedented collapse of the Reserve Primary Fund in 2008.
+
+### <ins>Reserve Primary Fund and two Reforms</ins>
 
 * On Sunday, September 14, the Reserve Primary Fund held debt securities (mainly CPs) issued by Lehman Brothers with a face value of $785 million[1][2].
 * On Monday, September 15, Lehman announced it had filed for bankruptcy protection. In response to this annoucement, on the same day, the Fund faced a tidal wave of redemption requests.
@@ -62,20 +74,17 @@ Overnight Reverse Repo (RRP) is employed by Fed to drain excess liquidity from M
 
 In concept, the ON RRP facility acts like interest on reserve balances (IORB) rate for a set of [nonbank money market participants](https://www.newyorkfed.org/markets/rrp_counterparties). That is, the Fed offers a broad range of financial institutions that are ineligible to earn IORB, an alternative risk-free investment option. *Together, the IORB rate and the ON RRP set a floor under overnight rates, beneath which banks and non-bank financial institutions should be unwilling to invest funds in private markets*.[6]
 
-
-"interet rate cap"
-https://www.federalreserve.gov/econres/notes/feds-notes/what-happened-in-money-markets-in-september-2019-20200227.htm
-https://libertystreeteconomics.newyorkfed.org/2022/01/the-feds-latest-tool-a-standing-repo-facility/
-
 ## Money Market Funds and "Balance Sheet Normalization"
 
 [The financial crisis of 2008](https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008) and [the COVID-19 recession](https://en.wikipedia.org/wiki/COVID-19_recession) in 2020 had forced the Federal Reserve to purchase large quantities of financial assets, known as "Quantitative Easing" or [QE](https://www.visualcapitalist.com/the-feds-balance-sheet-the-other-exponential-curve/). This expansionary monetary policy has expanded the Fed’s balance sheet from less than $900 billion before 2008 to about $8.9 trillion as of May, 2022; The majority is US Treasuries of $5.7 trillion, followed by the agency mortgage-backed securities of $2.7 trillion.
 
 In the meantime, there're ongoing efforts to keep the Fed's balance sheet as lean as possible, beginning in January, 2014, known as [tapering](https://advisor.visualcapitalist.com/a-visual-introduction-to-fed-tapering/).
 
+
 <p align="center">
-<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=PrBp&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy">
-</iframe>
+<a href="https://fred.stlouisfed.org/graph/?g=PrBp">
+  <img src="/images/posts_2022-07-01/fed_balance.png">
+</a>
 </p>
 
 ### <ins>What is the long-run optimal size of its balance sheet?</ins>
@@ -159,6 +168,10 @@ The Federal Open Market Committee (FOMC) discusses and designs Principles and Pl
 Note:
 
 For more data on MMFs, I'd recommend to check out the website of [the Office of Financial Research](https://www.financialresearch.gov/money-market-funds/us-mmfs-investments-by-fund-category/).
+
+"interest rate cap"
+https://www.federalreserve.gov/econres/notes/feds-notes/what-happened-in-money-markets-in-september-2019-20200227.htm
+https://libertystreeteconomics.newyorkfed.org/2022/01/the-feds-latest-tool-a-standing-repo-facility/
 
 **Reference**
 

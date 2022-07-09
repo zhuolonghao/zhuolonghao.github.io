@@ -14,39 +14,38 @@ title: "[Crypto] Stablecoins: What and Why"
 
 Stablecoins are **private money** on distributed ledgers (blockchains).
 
-The first stablecoin that caught my attention is the Libra from Facebook (or now Meta). Given the Meta's size and influences, i cannot stop thinking that the stablecoin is so like deposits that it may one day allure these easy money away from banks and push up their funding costs.
+The first stablecoin caught my eyes is the Libra-Now-Diem from Facebook-Now-Meta. Given the Meta's size and the deposit-like in nature, I cannot stop thinking that it may one day allure some deposits away from traditional financial system and eventually push up funding costs for banks and credit-union alike.
 
-In this post, i was trying to introduce what's stablecoins and explain why it exists by outlining main use cases.  
+In this post, i was trying to introduce what's stablecoins and their main use cases.  
 
 ## What is it?
 
-To date, stablecoins have no universal definition. Below provides a few of them from different perspective.
+To date, stablecoins have no universal definition.
 
-The President's Working Group on Financial Markets defined in the [Report](https://home.treasury.gov/system/files/136/StableCoinReport_Nov1_508.pdf) stablecoins as
+The [President's Working Group on Financial Markets](https://home.treasury.gov/system/files/136/StableCoinReport_Nov1_508.pdf) regards stablecoins as
 
 <blockquote>
     <p>Stablecoins are digital assets that are designed to maintain a stable value relative to a national
     currency or other reference assets.</p>
 </blockquote>
 
-The scholars inclined to consider stablecoins in [a broader scope](https://wifpr.wharton.upenn.edu/wp-content/uploads/2021/05/DeFi-Beyond-the-Hype.pdf). For example,
+The scholars consider stablecoins in [a broader scope](https://wifpr.wharton.upenn.edu/wp-content/uploads/2021/05/DeFi-Beyond-the-Hype.pdf). For example,
 
 <blockquote>
     <p>Stablecoins are crypto-assets that attempt to peg their value to another asset or a basket of assets including reserve currencies or high-quality liquid asset (HQLA).</p>
 </blockquote>
 
-Stablecoins can also be defined from the technology perspective. [One example](https://www.federalreserve.gov/econres/ifdp/files/ifdp1334.pdf) is
+Stablecoins can also be perceived from the technology perspective. [One example](https://www.federalreserve.gov/econres/ifdp/files/ifdp1334.pdf) is
 
 <blockquote>
     <p>Stablecoins are digital currencies recorded on distributed ledger technologies (DLTs), usually blockchains, that are pegged to a reference value.
     </p>
 </blockquote>
 
-Regardless of differences, they send a common message: **stablecoins offer a promoise or expectation that the coin can be redeemed at par upon request**
 
 ## Why and why not?
 
-The recent turmoil around stablecoins beg a question: do they survive and stay?
+The recent [turmoils](https://en.wikipedia.org/wiki/Cryptocurrency_bubble#Collapse_of_Terra-Luna) beg a question: do they survive and stay?
 
 Meaningful use cases are driving force for sustainable/organic growths, like any other financial instruments. Below surveyed a few by its importance.
 
@@ -67,6 +66,9 @@ Meaningful use cases are driving force for sustainable/organic growths, like any
 
 ## What makes (us to believe) it "stable"?
 
+Stablecoins purport to be stable because **it offers a promoise or expectation that the coin can be redeemed at par upon request**
+
+
 TerraUST, a top tier stablecoin with $17bn market cap at its peak, falls apart within a few days in May 2020, wiping out the mysterious $ (e.g., [$60bn](https://www.cnbc.com/2022/05/28/60-billion-terra-washout-not-cryptos-bear-stearns-moment-regulators.html#:~:text=A%20contained%20event,%2C%20they're%20essentially%20worthless.) vs [$45bn](https://en.wikipedia.org/wiki/Terra_(blockchain)) vs [$40bn](https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html))
 
 Therefore, it's important to understand what backs up the claim that stablecoin is always redeemable 1:1 for U.S. Dollars. One may view or assess the popular stablecoins in two dimensions below.
@@ -80,6 +82,4 @@ Therefore, it's important to understand what backs up the claim that stablecoin 
 A few comments:
 1. USDC and USDT alike are similar to money market funds, investing in cash, bank deposits, CP, UST, and commodities like golds.
 2. dai is over-collateralized by digital assets such as bitcoin and USDC.
-3. TerraUST implements a two-token algorithm that expand and contract supply similiarly to the way central banks buy and sell fiscal debt to stabilize purchasing power (i.e., pegged to $1 dollar)  
-
-### Notes
+3. TerraUST implements a two-token algorithm that expand and contract supply similiarly to the way central banks buy and sell fiscal debt to stabilize purchasing power (i.e., pegged to $1 dollar).  
