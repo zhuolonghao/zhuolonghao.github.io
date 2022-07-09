@@ -14,6 +14,36 @@ This post is my personal note from practicing leetcodes as suggested by [Grind75
 
 # By Techniques
 
+### Backtracking
+This is a general algorithm for finding all (or some) solutions to some computational problems: it incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that this candidate cannot lead to a final solution.
+
+[39. Combination Sum](https://leetcode.com/problems/combination-sum/): find a list of all unique combinations of candidates where the chosen numbers sum to target. For variations, see [target=fixed-length](https://leetcode.com/problems/combinations/), [candidate can only be used *once*](https://leetcode.com/problems/combination-sum-ii/), and [used-once](https://leetcode.com/problems/combination-sum-iii/).
+```python
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+
+        def backtrack(remain, comb, start):
+            # exit condition (pertaining to target)
+            if remain == 0:
+                results.append(list(comb))
+                return
+            elif remain < 0:
+                return
+            # search over feasible set for combination
+            for i in range(start, len(candidates)):
+                # act first, backtrack later
+                comb.append(candidates[i])
+                # start=i, for unlimited use of values.
+                # start=i+1, for one-time use of values.
+                backtrack(remain - candidates[i], comb, i)
+                # backtrack
+                comb.pop()
+
+        results = []
+        backtrack(target, [], 0)
+        return results
+```
+
 ### Divide and conquer
 This is one of the most powerful algorithm, with a simple idea: find a solution for the base case, and work up to a full problem in a recursive manner.
 
@@ -31,7 +61,7 @@ class Solution:
             left = majority_element_rec(lo, mid)
             right = majority_element_rec(mid+1, hi)
             # Divider: ends
-            
+
             # Base case-2: there're two elements in nums, and they are same
             if left == right:
                 return left
@@ -42,6 +72,11 @@ class Solution:
 
         return majority_element_rec(0, len(nums)-1)
 ```
+
+### Greedy
+This algorithm is often case-by-case, and rely heavily on how one approach the question.
+
+[57. Insert Interval](https://leetcode.com/problems/insert-interval/): Insert newInterval into intervals such that intervals is still sorted in ascending order by starti and intervals still does not have any overlapping intervals
 
 
 # Key Functions
@@ -79,7 +114,9 @@ class Solution:
 ### Set
 | Description             | Function-1        | Function-2               |
 |-------------------------|-------------------|--------------------------|
-| set: s belongs to t | s.issubset(t)     | s <= t                   |                  
+| create a new set        | _set = set()  | |
+| add an item | _set.add(value)| |
+| set: s belongs to t | s.issubset(t)     | s <= t |
 | set: union | s.union(t)  | s \| t   |                   
 | set: intersection  | s.intersection(t) | s & t                    |                  
 | set: x in s but not in t| s.diference(t)    | s - t                    |                  
@@ -162,6 +199,45 @@ for i in ans: ans2.extend(i)
         row  = _sum - col
         ans.append(dp[row][col])
   ```
+
+
+### Difference btw "and" and "&"
+In most cases, they're equivalent.
+
+Sometimes, "and" is preferred to "&" because "and" is a *lazy evaluation*, meaning if the first statement is False, it does not check the second statement and returns False immediately, while "&" would evaluate all statements.  
+
+### Difference btw "self." and "clf."
+Here is a reference from [stackoverflow](https://stackoverflow.com/questions/7554738/python-self-no-self-and-cls)
+```python
+class Foo(object):
+
+    # you couldn't use self. or cls. out here, they wouldn't mean anything
+
+    # this is a class attribute
+    thing = 'athing'
+
+    def __init__(self, bar):
+        # I want other methods called on this instance of Foo
+        # to have access to bar, so I create an attribute of self
+        # pointing to it
+        self.bar = bar
+
+    @staticmethod
+    def default_foo():
+        # static methods are often used as alternate constructors,
+        # since they don't need access to any part of the class
+        # if the method doesn't have anything at all to do with the class
+        # just use a module level function
+        return Foo('baz')
+
+    @classmethod
+    def two_things(cls):
+        # can access class attributes, like thing
+        # but not instance attributes, like bar
+        print cls.thing, cls.thing
+```
+
+
 
 ### Package: colletions
 

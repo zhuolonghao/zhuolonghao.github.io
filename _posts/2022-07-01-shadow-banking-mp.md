@@ -80,7 +80,7 @@ In the meantime, there're ongoing efforts to keep the Fed's balance sheet as lea
 
 ### <ins>What is the long-run optimal size of its balance sheet?</ins>
 
-What we know today is that Fed decides to continue to implement monetary policy in a regime with an ample supply of reserves[7]. What we didn't know is how large should the Fed's balance sheet be? 
+What we know today is that Fed decides to continue to implement monetary policy in a regime with an ample supply of reserves[7]. What we didn't know is how large should the Fed's balance sheet be?
 
 Not long ago, Fed was even debating two options:
 
@@ -110,7 +110,7 @@ This [article](https://www.frbsf.org/economic-research/wp-content/uploads/sites/
 
 ### <ins>A close look at balance sheet normalization</ins>
 
-The Federal Open Market Committee (FOMC) discusses and designs Principles and Plans in normalizing the stance of monetary policy. Historically, there principles and plans are implemented via 
+The Federal Open Market Committee (FOMC) discusses and designs Principles and Plans in normalizing the stance of monetary policy. Historically, there principles and plans are implemented via
 - set a federal fund target rate;
 - tapering (i.e., slow the pace of the asset purchase)
 - balance sheet run-off (i.e., reduce the balance sheet size b
