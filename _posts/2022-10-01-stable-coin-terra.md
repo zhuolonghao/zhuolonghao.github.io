@@ -28,3 +28,5 @@ The rise and fall of Terra's algorithmic stablecoin system is "epic"; at the pea
   <img src="/images/posts_2022-10-01/terra_eco.jpeg">
 </a>
 </p>
+
+https://www.reddit.com/r/CryptoCurrency/comments/oqpxz3/deep_dive_into_terra_ecosystem/
