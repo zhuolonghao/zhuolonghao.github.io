@@ -91,7 +91,7 @@ In the meantime, there're ongoing efforts to keep the Fed's balance sheet as lea
 
 What we know today is that Fed decides to continue to implement monetary policy in a regime with an ample supply of reserves[7]. What we didn't know is how large should the Fed's balance sheet be?
 
-Not long ago, Fed was even debating two options:
+Not long ago, Fed was ev  en debating two options:
 
 1. shrink the balance sheet to the pre-2008 level, and control short-term rates through the supply of reserve.
 
