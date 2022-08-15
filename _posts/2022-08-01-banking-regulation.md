@@ -33,7 +33,7 @@ $$
 $$
 
 
-## Capital
+# Capital
 
 Capitals are predominantly in the form of equity shares and retained earnings that can absorb losses in the first place.
 
@@ -95,12 +95,31 @@ Again, WFC remain compliant with TLAC rules in both RWA and total leverage expos
 </a>
 </p>
 
-## Liquidity
+# Liquidity
+
+The liquidity management often lies within the responsibility of CIO and CFO.
+
+The key objective is to ensure short-term resilience of a bank's liquidity risk. The liquidity risk is elevated when a bank has difficulty converting its assets easily and quickly to cash in an amount sufficient to survive a significant stress scenario that often last 30 days.
+
+Regulators monitor the liquidity risk of banks via two key metrics; liquidity coverage ratio (LCR) and net stable funding ratio (NSFR).
 
 ### *LCR*
+The metric measures if there's sufficient HQLA that can cover the net cash outflow over a 30-day stress periods. It is required for big banks that their ratio of HQLA to net cash outflow must be greater or equal to 100%.
+
+High-quality liquid assets are selective b/c they must be easily and immediately converted into cash *at little or no loss of value*. The value of HQLA is measured based on fair value and could be subject to haircuts. For example, Agency MBS appears a safe asset, but it still needs to be weighted in HQLA with haircuts applied to fair value at 15%.
+
+Therefore, the composition of HQLA is deemed as a strategic choice; Different bank appears to have different HQLA composition; looking at [WFC](https://www08.wellsfargomedia.com/assets/pdf/about/investor-relations/lcr-disclosures/2022-second-quarter-lcr-disclosure.pdf) and [JPM](https://jpmorganchaseco.gcs-web.com/static-files/9158e99a-c9a5-41d5-8a10-b0414c0fe0d6). This [article](https://research.stlouisfed.org/publications/review/2019/07/12/how-have-banks-been-managing-the-composition-of-high-quality-liquid-assets) attempts to explain why.
+
 
 ### *NSFR*
 
+[NSFR](https://www.bis.org/bcbs/publ/d295.pdf) extends LCR and exhibits two important differences;
+1. It assesses the funding/liquidity risk over a longer horizon (1 year), rather than a short stress periods lasting 30 days;
+2. It deep-dive and differentiate the funding tenor (e.g., 10-year debt vs 1-year note) and type (e.g., retail deposits vs wholesale funding).
+
+It's required that the NSFR is greater than or equal to 1, meaning the bank can make ends meet in one year using its available stable funding.
+1. Available funding could be bank's capital (i.e., shareholders' equity) and deposits from household and business. Different weights will apply to these funding sources to reflect its stability.
+3. On the other side, funding is required for various assets held by bank. Different assets require a stable funding to different extend. Hence, a weighting scheme is also applied to required stable funding for assets.   
 
 
 
