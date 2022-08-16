@@ -12,9 +12,11 @@ title: "[MP] Banking Regulations: Capital and Liquidity"
 
 ― **Ben S. Bernanke**, at the 2010 AEA meeting, Atlanta, GA
 
-The Federal Reserve influences the macroeconomics through its conventional monetary policies (e.g., FFT) as well as unconventional measures (e.g., QE and QT). Apart from these tools, the Fed also exerts regulations on the banking industry as an response to the 2008's crisis. As Bank of England explained why central bank regulates banks, it said "When a bank fails, it can create problems for the wider economy."
+Why does central bank regulate banks? The answer from Bank of England sheds some light: "*When a bank fails, it can create problems for the wider economy.*"
 
-Currently, the focuses are to ensure capital adequacy and improve liquidity position; the former aims to curb the excessive risk-taking behaviors, while the latter helps reduce the chances of bank runs during the stress periods. In this post, i will discuss the major regulatory metrics below used to evaluate banks' capital and liquidity situation.
+Two areas are under heavy regulations: capital and liquidity; capital aims to curb the excessive risk-taking behaviors, while liquidity helps reduce the chances of bank runs during the stress periods.
+
+In this post, i will discuss the major regulatory metrics below used to evaluate banks' capital and liquidity situation.
 
 $$
 \begin{split}
@@ -35,14 +37,14 @@ $$
 
 # Capital
 
-Capitals are predominantly in the form of equity shares and retained earnings that can absorb losses in the first place.
+Capitals are predominantly in the form of equity shares and retained earnings. They are the cushion absorbing losses in the first place.
 
-The 2007-09 Great Financial Crisis prompted a series of reforms in defining/refining the capital requirement for banks; known as the regulatory capital. It is the amount of capital that a bank has to have maintained, and often expressed as the ratio of equity as a percentage of risk-weighted assets.
+Capitals are often assessed as a fraction of risky assets. Among many ratios, the CET-1 ratio is the most important.
 
 ### *CET-1 Ratio*
-The most important capital adequacy ratio is the CET-1 Ratio, the ratio of common equity tier-1 capital over the risk-weighted assets (RWA). RWA could be calculated in two ways, depending on the use of a prescribed risk weight schedule by regulators (i.e., standardized) or the use of internal rating system (i.e., advanced).
+CET-1 Ratio is the ratio of common equity tier-1 (CET-1) capital over the risk-weighted assets (RWA).
 
-JPM, for example, has the advanced CET-1 Ratio of 12.7\% that is 1.2% higher than the required level.
+The required CET-1 ratio could vary for banks with different size and business. JPM, for example, has the advanced CET-1 Ratio of 12.7\% that is 1.2% higher than the required level.
 
 <p align="center">
 <a href="https://jpmorganchaseco.gcs-web.com/static-files/81a917bc-b9e1-42e6-bc7d-62ca47190b4a">
@@ -50,11 +52,9 @@ JPM, for example, has the advanced CET-1 Ratio of 12.7\% that is 1.2% higher tha
 </a>
 </p>
 
-It's interesting to know a few things about internal risk rating system;
 
-1. Different types of risk rating methodologies may co-exist for a bank. Bank of America, for example, [recognized publicly](https://investor.bankofamerica.com/regulatory-and-other-filings/basel-pillar-3-disclosures) that they are using 1) internally developed scorecards, 2) external mappings, and 3) judgmental approach at the same time.
+RWA could be calculated using either the standardized method (i.e., a prescribed risk weight schedule by regulators) or the advanced method (e.g., model-based PD by [BofA](https://investor.bankofamerica.com/regulatory-and-other-filings/basel-pillar-3-disclosures))
 
-2. PD is an through-the-cycle (TTC) estimate of the probability that an obligor will default over a one-year horizon, EAD is an point-in-time (PIT) estimate of the amount that would be owed to the bank if the obligor were to default, and LGD is also an PIT estimate of the portion of the EAD that would be lost in a stressed environment with high default rates.    
 
 <p align="center">
 <a href="https://jpmorganchaseco.gcs-web.com/node/434316/html">
@@ -62,21 +62,21 @@ It's interesting to know a few things about internal risk rating system;
 </a>
 </p>
 
-Key components in the required capital are explained below;
+Key components are explained one by one;
 
-1. [G-SIB capital surcharge](https://www.bis.org/bcbs/gsib/index.htm) is the greater of 1) the value considering the bank's size, interconnectedness, cross-jurisdictional activity, substitutability, and complexity, and 2) similar inputs but replaces substitutability with use of short-term wholesale funding.
+1. [G-SIB capital surcharge](https://www.bis.org/bcbs/gsib/index.htm) is additional capital requirement for Global Systemically Important Banks only. It considers many factors including bank's size, interconnectedness, cross-jurisdictional activity, substitutability, complexity, and reliance of short-term wholesale funding.
 
-2. [Stress Capital Buffer (SCB)](https://www.bis.org/review/r190905b.htm) is a concept only for the standardized CET-1 ratio. It is a bank-specific buffer based on its most recent stress test results (i.e., the decrease in risk capital ratio under the severely adverse scenario), plus four quarters of planned common stocks dividends.
+2. [Stress Capital Buffer (SCB)](https://www.bis.org/review/r190905b.htm) is a concept of the standardized CET-1 ratio. It is a bank-specific buffer based on its four quarters of planned common stocks dividends and the most recent stress test results (i.e., the decrease in risk capital ratio under the severely adverse scenario).
 
-3. [Capital Conservation Buffer (CCB)](https://www.bis.org/fsi/fsisummaries/b3_capital.htm) is a concept only for the advanced CET-1 ratio, and set at 2.5% of total risk-weighted assets. It should be regarded as an additional layer of usable capital that can be drawn down when losses are incurred.
+3. [Fixed Capital Conservation Buffer (CCB)](https://www.bis.org/fsi/fsisummaries/b3_capital.htm) is a concept of the advanced CET-1 ratio. It is manually fixed at 2.5% of total risk-weighted assets.
 
 4. [Countercyclical buffer (CCyB)](https://www.bis.org/fsi/fsisummaries/b3_capital.htm) aims to protect the banking sector from periods of excess aggregate credit growth that have often been associated with the build-up of system-wide risks. The CCyB was 0.00% as of March-2022, and can go up to 2.50% at the Fed's discretion.    
 
 
 ### *SLR*
-[SLR](https://www.davispolk.com/sites/default/files/09.12.14.Supplementary_Leverage_Ratio.pdf) is different from CET-1 ratio b/c it takes into account both on- and off- balance sheet risk exposures (i.e., total leverage exposure) for capital requirement. According, the capital cushion is enlarged to all Tier-1 capital. The G-SIB banks must maintain a \> 5% SLR on a consolidated basis.
+[SLR](https://www.davispolk.com/sites/default/files/09.12.14.Supplementary_Leverage_Ratio.pdf) expands to Tier-1 capital and uses total leverage exposure (i.e., on- and off- balance sheet exposures).
 
-Below shows WFC scored SLR at 6.2%, well above the required minimum.
+The G-SIB banks must maintain a \> 5% SLR on a consolidated basis. WFC, for example, has a SLR of 6.61%, above the minimum.
 
 <p align="center">
 <a href="https://www08.wellsfargomedia.com/assets/pdf/about/investor-relations/basel-disclosures/2022-first-quarter-pillar-3-disclosure.pdf">
@@ -85,9 +85,9 @@ Below shows WFC scored SLR at 6.2%, well above the required minimum.
 </p>
 
 ### *TLAC*
-For G-SIB banks, they are required additionally to have a minimum amount of equity and *unsecured long-term debt*, known as [TLAC](https://www.bis.org/fsi/fsisummaries/tlac.htm). The objective is to have an orderly resolution by making debt/equity holders absorb losses (enabling a "bail-in"), instead of using public funds (conducting a "bailout").
+Shareholders and creditors should bail in before the govt. bails out in the presence of losses. Such bail-in money is called total loss absorbing capacity, and often in the form of Tier-1 capital and unsecured long-term debt.
 
-Again, WFC remain compliant with TLAC rules in both RWA and total leverage exposure.   
+[TLAC](https://www.bis.org/fsi/fsisummaries/tlac.htm) is scaled by either RWA or total leverage exposure.   
 
 <p align="center">
 <a href="https://www08.wellsfargomedia.com/assets/pdf/about/investor-relations/basel-disclosures/2022-first-quarter-pillar-3-disclosure.pdf">
@@ -95,13 +95,14 @@ Again, WFC remain compliant with TLAC rules in both RWA and total leverage expos
 </a>
 </p>
 
+
 # Liquidity
 
 The liquidity management often lies within the responsibility of CIO and CFO.
 
-The key objective is to ensure short-term resilience of a bank's liquidity risk. The liquidity risk is elevated when a bank has difficulty converting its assets easily and quickly to cash in an amount sufficient to survive a significant stress scenario that often last 30 days.
+The liquidity risk is about short-term resilience; it's elevated when a bank has difficulty converting its assets easily and quickly to cash in an amount sufficient to survive a significant stress scenario that often last 30 days.
 
-Regulators monitor the liquidity risk of banks via two key metrics; liquidity coverage ratio (LCR) and net stable funding ratio (NSFR).
+Regulators monitor the liquidity risk via two key metrics; liquidity coverage ratio (LCR) and net stable funding ratio (NSFR).
 
 ### *LCR*
 The metric measures if there's sufficient HQLA that can cover the net cash outflow over a 30-day stress periods. It is required for big banks that their ratio of HQLA to net cash outflow must be greater or equal to 100%.
@@ -113,13 +114,13 @@ Therefore, the composition of HQLA is deemed as a strategic choice; Different ba
 
 ### *NSFR*
 
-[NSFR](https://www.bis.org/bcbs/publ/d295.pdf) extends LCR and exhibits two important differences;
+[NSFR](https://www.bis.org/bcbs/publ/d295.pdf) extends LCR and exhibits two distinct features;
 1. It assesses the funding/liquidity risk over a longer horizon (1 year), rather than a short stress periods lasting 30 days;
-2. It deep-dive and differentiate the funding tenor (e.g., 10-year debt vs 1-year note) and type (e.g., retail deposits vs wholesale funding).
+2. It deep-dives and differentiate funding sources regarding its tenor (e.g., 10-year debt vs 1-year note) and type (e.g., retail deposits vs wholesale funding).
 
 It's required that the NSFR is greater than or equal to 1, meaning the bank can make ends meet in one year using its available stable funding.
 1. Available funding could be bank's capital (i.e., shareholders' equity) and deposits from household and business. Different weights will apply to these funding sources to reflect its stability.
-3. On the other side, funding is required for various assets held by bank. Different assets require a stable funding to different extend. Hence, a weighting scheme is also applied to required stable funding for assets.   
+3. On the other side, funding is required to fund various assets (loan, debt, and derivative contracts). Different assets require a stable funding to different extend. Hence, a weighting scheme is also applied to required stable funding for assets.   
 
 
 
