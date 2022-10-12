@@ -45,9 +45,29 @@ Blockchain is a distributed ledger of transactions that enables exchange of valu
 In the Terra Ecosystem, a few core products are driving its growth;
 
 1. **TerraUSD, or UST**: a stablecoin as a private money;
+
 2. **Anchor**: a lending/borrowing protocol as a bank/money market fund;
+
 3. **Mirror**: an investing protocol as a brokerage firm/Stock Exchange.
+
 4. **Astroport**: a decentralized exchange mainly on-chain.
 
 
-https://www.reddit.com/r/CryptoCurrency/comments/oqpxz3/deep_dive_into_terra_ecosystem/
+# Why Terra was hot: Users' perspective
+
+**Hook**: Anchor, a dApp on Terra platform, promised the industry-leading 20% return for deposits made in UST. As a reference, the return have never risen above 12% historically for depositing another stablecoin [Dai](https://en.wikipedia.org/wiki/Dai_(cryptocurrency) on [Compound](https://compound.finance/markets/DAI).
+
+**Under the hood**: decentralized finance (DeFi) needs stablecoin, and Terra's UST is a stablecoin. It is a truly de-decentralized token that depends on arbitrage mechanism, rather than central governing organization, to stabilize the token's price at the promised value. This feature gained the trust of the decentralized finance (DeFi) community.
+
+
+**Behind the scene**: Luna Foundation Guard (LFG) devoted to shore up / defend the UST peg. One key event is LFG raised $1 billion to form Bitcoin reserve for UST, led by Jump Crypto and Three Arrow Capital (3AC). Their plan is to boost the public confidence in UST since the Bitcoin reserve to UST is like gold to gold-backed currency.  
+
+        What's crypto version of FDIC insurance to bank deposits???
+
+
+# Why Terra was hot: Miners' perspective
+
+
+
+
+# Why Terra was doomed?
