@@ -55,7 +55,9 @@ In the Terra Ecosystem, a few core products are driving its growth;
 
 # Why Terra was hot: Users' perspective
 
-**Hook**: Anchor, a dApp on Terra platform, promised the industry-leading 20% return for deposits made in UST. As a reference, the return have never risen above 12% historically for depositing another stablecoin [Dai](https://en.wikipedia.org/wiki/Dai_(cryptocurrency) on [Compound](https://compound.finance/markets/DAI).
+By users, i mean the stablecoin UST holders, who use or plan to use UST to purchase goods and/or services.
+
+**Hook**: Anchor, a dApp on Terra platform, promised the industry-leading 20% return for deposits made in UST. As a reference, the return have never risen above 12% historically for depositing another stablecoin [Dai](https://bit.ly/3Ey3N2m) on [Compound](https://compound.finance/markets/DAI).
 
 **Under the hood**: decentralized finance (DeFi) needs stablecoin, and Terra's UST is a stablecoin. It is a truly de-decentralized token that depends on arbitrage mechanism, rather than central governing organization, to stabilize the token's price at the promised value. This feature gained the trust of the decentralized finance (DeFi) community.
 
@@ -65,9 +67,15 @@ In the Terra Ecosystem, a few core products are driving its growth;
         What's crypto version of FDIC insurance to bank deposits???
 
 
-# Why Terra was hot: Miners' perspective
+# Why Terra was hot: Investors/Miners' perspective
 
+By Investors, I mean the LUNA holders, who stake their LUNA coins in Terra network for its operations/growth/governance.
 
+Investors invest Terra by staking LUNA in the network, similar to buying equity of a public-traded company. Like public companies pay dividends, the Terra network is rewarding these staked coin in two forms.
 
+- **Gas Fee**: the use of services hosted on Terra Network. More uses mean higher revenue coming from fees. (As of Feb-2022, gas revenue is around 1% to 2% of the staking APR. )
+- **Oracle Rewards Distribution**: it comes from the swap fee charged when someone burns LUNA to create UST or vice versa. It's like exchange fee charged by banks. Investors are rewarded every vote periods by a fixed portion of coins in the oracle pool.   
+
+See more details in this [link](https://threadreaderapp.com/thread/1494379344382369794.html).
 
 # Why Terra was doomed?
