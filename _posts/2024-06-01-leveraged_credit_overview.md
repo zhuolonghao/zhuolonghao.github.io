@@ -15,24 +15,31 @@ Per S&P's analysis [1], among *rated* corporates, speculative-grade represents 5
 For those non-rated, they are often comparable to speculative grades. 
 That's, there's a huge universe of companies without investment-grade ratings.
 
-## Place LevFin in the big picture of the US corporate debt market
+## Size of LevFin in US corporate debt market
 
-Stephen Nesbitt [2] estimates the US corporate debt market totaled approximately $12.6 trillion as of March 31, 2022. The debt financing to US companies with below investment grade consists of High-Yield Corporate Bonds (HY) at $1.4 trillion, Broadly Syndicated Loans (BSL) at $1.4 trillion, Direct Lending (aka Private Credit) at $1.0 trillion, **and a fraction of Bank Commerical and Industrial Loans (C&I) at $2.6 trillion**. 
+Stephen Nesbitt [2] estimates the US corporate debt market totaled approximately $12.6 trillion in Q1 2022, which includes $6.2T in investment-grade (IG) bonds. The remainder of investment grade debt, in loan form,  is encompassed within the $2.6T Bank Commercial and Industrial (C&I) Loans [3]. It's unclear, however, what the distribution of C&I loans between IG and below-IG looks like, as it's a strategic decision that differs for each bank. 
 
-My survey shows the LevFin market can range from $2.8 trillion (HY+BSL) to $3.8 trillion (HY+BSL+Private Credit), depending on its scope. The broadest LevFin, in my opinion, should further entail the leveraged C&I loans that banks retain on their balance sheets for investment (HFI). These loans are not meant to be sold in the public market but are kept to generate ongoing interest income. The distribution of C&I loan between investment and non-investment is a strategic decision that differs for each bank, making it extremely hard to gauge the share of LevFin in $2.6 trillion C&I loans [3].
+In the broadest sense, the LevFin consists of $1.4T in High-Yield Corporate Bonds (HY), $1.4T in Broadly Syndicated Loans (BSL), $1.0T in Direct Lending (aks Private Credit), along with a leveraged portion of $2.6T in Bank C&I loans. 
 
+<p align="center">
+<img height="400" src="/images/posts_2024_06_01/corp_debt_breakdown.png" >
+</p>
 
-<a>
-  <img align="left" src="/images/posts_2024-06-01/corp_debt_breakdown.png" >
-</a>
+## Historical Trend of LevFin
 
+As the size of C&I leveraged loans is not publicly available, some narrower measures of LevFini are often used. 
+For example, Nini and Smith [4] and Fidelity restrict the LevFin market to large borrowers (HY + BSL), while Gatto [5] argues the private credit market for middle-market borrowers is also an essential component (LevFin = HY + BSL + Direct Lending). 
+Here, we're sharing the historical trend of LevFin using Gatto's version. 
 
-Gatto [4] exhibits the historical trend of High Yield Bond and Leveraged Loan Market Size, which together totaled approximately $3.9 trillion as of 2023. 
+Per Gatto's account, The non‐investment grade debt markets have grown by roughly 7x over the last 20 years, driven by the growing acceptance of more-levered companies, the growth of private equity, and investor demand for a higher rate of return. 
+Nesbitt even suggests that direct lending is now a real challenger to the traditional bank C&I loan business and has the potential to claim a sizable market from its competitors. 
+The narrative seems to jibe well with the WSJ report [6].
 
-<a>
-  <img align="left" src="/images/posts_2022-06-01/levfin_trend.png" >
-</a>
+<p align="center">
+<img  height="400" src="/images/posts_2024_06_01/levfin_trend.png" >
+</p>
 
+## LevFin: Loan vs Bond 
 
 
 | By Purpose || By Asset Class || By Debt Instrument |
@@ -56,6 +63,10 @@ Gatto [4] exhibits the historical trend of High Yield Bond and Leveraged Loan Ma
 
 [3] S&P Global, Q2 2023, [US banks' C&I lending in Q2 2023](https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/cautious-approach-by-borrowers-lenders-drag-us-banks-c-i-lending-in-q2-2023-77261573)
 
-[4] Michael Gatto, 2024, [The Credit Investor's Handbook: Leveraged Loans, High Yield Bonds, and Distressed Debt](https://www.amazon.com/Credit-Investors-Handbook-Leveraged-Distressed/dp/1394196059)
+[4] Nini and Smith, 2023 WP, [Leveraged Finance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4473729)
+
+[5] Michael Gatto, 2024, [The Credit Investor's Handbook: Leveraged Loans, High Yield Bonds, and Distressed Debt](https://www.amazon.com/Credit-Investors-Handbook-Leveraged-Distressed/dp/1394196059)
+
+[6] Matt Wirz from WSJ, 2024, [The New Kings of Wall Street Aren’t Banks. Private Funds Fuel Corporate America.](https://www.wsj.com/finance/fed-rate-hikes-lending-banks-hedge-funds-896cb20b?mod=finance_lead_pos2)
 
 
