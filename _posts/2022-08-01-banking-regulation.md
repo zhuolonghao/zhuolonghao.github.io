@@ -48,7 +48,7 @@ The required CET-1 ratio could vary for banks with different size and business. 
 
 <p align="center">
 <a href="https://jpmorganchaseco.gcs-web.com/static-files/81a917bc-b9e1-42e6-bc7d-62ca47190b4a">
-  <img src="/images/posts_2022-08-01 /JPM_CET1.png" width="1000">
+  <img src="/images/posts_2022-08-01/JPM_CET1.png" width="1000">
 </a>
 </p>
 
@@ -58,7 +58,7 @@ RWA could be calculated using either the standardized method (i.e., a prescribed
 
 <p align="center">
 <a href="https://jpmorganchaseco.gcs-web.com/node/434316/html">
-  <img src="/images/posts_2022-08-01 /required_cet1.png" width="1000">
+  <img src="/images/posts_2022-08-01/required_cet1.png" width="1000">
 </a>
 </p>
 
@@ -80,7 +80,7 @@ The G-SIB banks must maintain a \> 5% SLR on a consolidated basis. WFC, for exam
 
 <p align="center">
 <a href="https://www08.wellsfargomedia.com/assets/pdf/about/investor-relations/basel-disclosures/2022-first-quarter-pillar-3-disclosure.pdf">
-  <img src="/images/posts_2022-08-01 /SLR.png" width="1000">
+  <img src="/images/posts_2022-08-01/SLR.png" width="1000">
 </a>
 </p>
 
@@ -91,7 +91,7 @@ Shareholders and creditors should bail in before the govt. bails out in the pres
 
 <p align="center">
 <a href="https://www08.wellsfargomedia.com/assets/pdf/about/investor-relations/basel-disclosures/2022-first-quarter-pillar-3-disclosure.pdf">
-  <img src="/images/posts_2022-08-01 /TLAC.png" width="1000">
+  <img src="/images/posts_2022-08-01/TLAC.png" width="1000">
 </a>
 </p>
 
