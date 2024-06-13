@@ -50,19 +50,20 @@ The narrative seems to jibe well with the WSJ report [6].
 
 [7] makes a nice chart (below) to highlight the differences between leveraged loans and HY bonds. 
 
-Both banks and asset managers underwrite leveraged loans, but their focus and business models differ. 
-Banks use an originate-to-distribute approach (Broadly syndicated loans for large borrowers), while asset managers rely on an originate-to-hold strategy (middle market loans for SMEs). 
-
-Leveraged loans are often the most senior part of the capital structure of borrowers and are secured. Bonds sit below loans and are often unsecured.
-The seniority is priced in its interest rate; more junior debt is often better compensated. 
-However, the floating interest rate on loans makes them an attractive investment option in a rate-hiking environment where bonds would suffer (e.g., SVB's collapse).  
-
-It's also worth pointing out that covenants in credit agreements can give investors more power in guiding borrower's operations and better protect investors from moral hazards.
-
 <p align="center">
 <img  height="400" src="/images/posts_2024_06_01/loan_vs_bond.png" >
 </p>
 
+Generally, debt seniority is ranked, from high to low, by ABL Revolver > Secured loans and bonds > Senior unsecured debt > Subordinated bonds/Mezzanine Debt. 
+Therefore, leveraged loans are often senior to HY bonds. 
+
+Leveraged loans can be underwritten by banks and private debt asset managers. 
+Their focus and business models, however, differ. 
+Banks typically guarantee the entire commitment and then syndicate the loan (e.g., sell to institutional investors). With that, banks earn lucrative fees, but also take the distribution risk (i.e., unable to sell loans, especially when liquidity dries up). 
+On the other side, private credit funds invest in the debt of small and medium-sized companies. They can either buy from banks or provide debt financing directly to companies (Direct Lending). 
+
+Lending to leveraged borrowers can be structured into different risk-return profiles such as Revolver, TLA, and TLB. 
+Banks are major investors in Revolver and Term A due to their risk appetite and regulation. Compared to TLB, TLA has smaller spreads, stricter covenants, and more even amortization schedules. 
 
 <br><br>
 
