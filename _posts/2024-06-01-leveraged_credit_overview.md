@@ -15,7 +15,10 @@ Per S&P's analysis [1], among *rated* corporates, speculative-grade represents 5
 For those non-rated, they are often comparable to speculative grades. 
 That's, there's a huge universe of companies without investment-grade ratings.
 
-## Size of LevFin in US corporate debt market
+<br>
+
+## Today, LevFin makes up at least 30% of US corporate debt market
+
 
 Stephen Nesbitt [2] estimates the US corporate debt market totaled approximately $12.6 trillion in Q1 2022, which includes $6.2T in investment-grade (IG) bonds. The remainder of investment grade debt, in loan form,  is encompassed within the $2.6T Bank Commercial and Industrial (C&I) Loans [3]. It's unclear, however, what the distribution of C&I loans between IG and below-IG looks like, as it's a strategic decision that differs for each bank. 
 
@@ -25,7 +28,9 @@ In the broadest sense, the LevFin consists of $1.4T in High-Yield Corporate Bond
 <img height="400" src="/images/posts_2024_06_01/corp_debt_breakdown.png" >
 </p>
 
-## Historical Trend of LevFin
+<br>
+
+## Leveraged Loans outgrow HY bonds in recent years, gaining traction and momentum  
 
 As the size of C&I leveraged loans is not publicly available, some narrower measures of LevFini are often used. 
 For example, Nini and Smith [4] and Fidelity restrict the LevFin market to large borrowers (HY + BSL), while Gatto [5] argues the private credit market for middle-market borrowers is also an essential component (LevFin = HY + BSL + Direct Lending). 
@@ -39,17 +44,24 @@ The narrative seems to jibe well with the WSJ report [6].
 <img  height="400" src="/images/posts_2024_06_01/levfin_trend.png" >
 </p>
 
+<br>
+
 ## LevFin: Loan vs Bond 
 
+[7] makes a nice chart (below) to highlight the differences between leveraged loans and HY bonds. 
 
-| By Purpose || By Asset Class || By Debt Instrument |
-|---|---|---|---|---|
-| Leveraged Buyout (LBO)                   || High Yield Bonds (HY)  ||    Secured Revolving Credit Facility (RCF)    | 
-| M&A                                      || Bank C&I Loans  ||  Secured Term Loan   | 
-| Recapitalization (dividend/buyback)  || Broadly Syndicated Loans (BSL) || Senior Unsecured High Yield Bonds | 
-| Refinancing                              || Private Credit / Direct Lending || Subordinated / Mezzanine Debt   | 
-| Seasonal Working Capital Needs           ||  ||   | 
-| Long-term CapEx|| || |
+Both banks and asset managers underwrite leveraged loans, but their focus and business models differ. 
+Banks use an originate-to-distribute approach (Broadly syndicated loans for large borrowers), while asset managers rely on an originate-to-hold strategy (middle market loans for SMEs). 
+
+Leveraged loans are often the most senior part of the capital structure of borrowers and are secured. Bonds sit below loans and are often unsecured.
+The seniority is priced in its interest rate; more junior debt is often better compensated. 
+However, the floating interest rate on loans makes them an attractive investment option in a rate-hiking environment where bonds would suffer (e.g., SVB's collapse).  
+
+It's also worth pointing out that covenants in credit agreements can give investors more power in guiding borrower's operations and better protect investors from moral hazards.
+
+<p align="center">
+<img  height="400" src="/images/posts_2024_06_01/loan_vs_bond.png" >
+</p>
 
 
 <br><br>
@@ -68,5 +80,8 @@ The narrative seems to jibe well with the WSJ report [6].
 [5] Michael Gatto, 2024, [The Credit Investor's Handbook: Leveraged Loans, High Yield Bonds, and Distressed Debt](https://www.amazon.com/Credit-Investors-Handbook-Leveraged-Distressed/dp/1394196059)
 
 [6] Matt Wirz from WSJ, 2024, [The New Kings of Wall Street Aren’t Banks. Private Funds Fuel Corporate America.](https://www.wsj.com/finance/fed-rate-hikes-lending-banks-hedge-funds-896cb20b?mod=finance_lead_pos2)
+
+[7] WallStreetPrep, 2023, [Leveraged Finance Guide](https://www.wallstreetprep.com/knowledge/ultimate-guide-to-debt-leveraged-finance/)
+
 
 
