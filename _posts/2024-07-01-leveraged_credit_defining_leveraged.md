@@ -35,12 +35,12 @@ Despite the scorecard factors and their relative importance/weight differ across
 </p>
 
 A speculative-grade company appears to have  
-  * **Balance Sheet Leverage**: Debt / Book_Cap > 46.4%
-  * **Operating Leverage**:  Debt / EBITDA > 2.9x
-  * **Debt Service Coverage**: EBITA / Interest_Expense < 6.3x, (FFO+Interest_Expense)/Interest_Expense < 8.1x
+  * **Balance Sheet Leverage**: Debt/Book_Cap > 46.4%
+  * **Operating Leverage**:  Debt/EBITDA > 2.9x
+  * **Debt Service Coverage**: EBITA/Interest_Expense < 6.3x, (FFO+Interest_Expense)/Interest_Expense < 8.1x
   * **Free Cash Flow Coverage**: FFO/Debt < 27.1%, Retained_Cash_Flow/Net_Debt < 25.3%  
-  * **Profitability**:  EBITA / Avg_Assets < 8.7%, EBITA_Margin < 13.9%, Operating_Margin < 12.0%
-  * **Others**:, CapEx / Depreciation < 1.2x, Revenue_volatility > 10.7x
+  * **Profitability**:  EBITA/Avg_Assets < 8.7%, EBITA_Margin < 13.9%, Operating_Margin < 12.0%
+  * **Others**:, CapEx/Depreciation < 1.2x, Revenue_volatility > 10.7x
 
 
 <br>
@@ -70,33 +70,38 @@ For Large-Corp,
 For Upper Middle Market, 
   * **Leverage**: Total_debt/Adjusted_EBITDA > 2.50x (20%),
   * **Leverage**: (Total_liabilities-Sub_debt)/(Tangible_net_worth-Sub_debt) > 2.50x (20%)
-  * **Coverage**: (Net_income + D&A + Int_Exp +/- Net_distributions) / (CPLTD + CP_Finance_lease + Int_Exp) < 2.49x (20%)
-  * **Coverage**: Adjusted_EBITDA / (CPLTD + CP_Finance_lease + Cash_Interest) < 2.75x (10%)
-  * **Coverage**: (Adjusted_EBITDA - CapEx - Cash_Div -Cash_Taxes) / (CPLTD + CP_Finance_lease + Cash_Interest) < 1.60x (10%)
-  * **Profitability**:  Net_income_before_tax / Total_Assets < 10% (15%)
-  * **Liqudity**:, Current_Assets / Current_Liabilites < 2x (5%)
+  * **Coverage**: (Net_income+D&A+Int_Exp+/-Net_distributions)/(CPLTD+CP_Finance_lease+Int_Exp) < 2.49x (20%)
+  * **Coverage**: Adjusted_EBITDA/(CPLTD+CP_Finance_lease+Cash_Interest) < 2.75x (10%)
+  * **Coverage**: (Adjusted_EBITDA-CapEx-Cash_Div-Cash_Taxes)/(CPLTD+CP_Finance_lease+Cash_Interest) < 1.60x (10%)
+  * **Profitability**:  Net_income_before_tax/Total_Assets < 10% (15%)
+  * **Liqudity**:, Current_Assets/Current_Liabilites < 2x (5%)
 
 For Middle Market w/ Equity Sponsor, 
-  * **Leverage**: (Total_Debt + Finance_Lease) /  Adjusted_EBITDA > 3.25x (40%)
-  * **Leverage**: (Senior_Debt + Finance_Lease) /  Adjusted_EBITDA > 2.76x (10%) 
-  * **Coverage**: (Adjusted_EBITDA - CapEx - Cash_Taxes) / (Cash_interest + Cash_distribution + 1/14thx(Total_debt+Finance_lease)) < 1.75x  (30%)
-  * **Coverage**: Adjusted_EBITDA / Cash_interest < 5x  (20%) 
+  * **Leverage**: (Total_Debt+Finance_Lease)/Adjusted_EBITDA > 3.25x (40%)
+  * **Leverage**: (Senior_Debt+Finance_Lease)/Adjusted_EBITDA > 2.76x (10%) 
+  * **Coverage**: (Adjusted_EBITDA-CapEx-Cash_Taxes)/(Cash_interest+Cash_distribution+1/14thx(Total_debt+Finance_lease)) < 1.75x  (30%)
+  * **Coverage**: Adjusted_EBITDA/Cash_interest < 5x  (20%) 
 
 
 Likewise, the scorecards consider such qualitative factors as historical trends, management/equity sponsor strength, market position, industry outlook, access to capital markets, and legal/regulatory/operational/reputational risk, which can override the scorecard-induced ratings.  
 
-
 <br>
 
-## Credit Ratings vs Default Probability
+## Credit Ratings != Default Probability
 
-Credit Rating by Moody's Investor Service is to rank creditworthiness, while default probability (e.g., EDF by Moody's Analytics) quantifies credit risk in more precise and timely manner. 
-In other words ,credit rating is a relatively coarse measurement of default probability when compared to EDF.
+Credit ratings are over-the-time ratings used to *rank* the creditworthiness of borrowers. Therefore, credit ratings do not necessarily equate to default probabilities. It should be noted that 
+- **Within a given year, a higher rating tends to have a lower default probability, and**
+- **The default probability for the same rating can fluctuate from year to year, and**
+- **The same rating category (e.g., BBB) can imply different default probabilities across different CRAs** 
 
-Likewise, S&P global also published its rating-to-default_prob [linkages](https://www.spglobal.com/ratings/en/research/articles/240328-default-transition-and-recovery-2023-annual-global-corporate-default-and-rating-transition-study-13047827)
+Annual and cumulative default rates are useful:
+- S&P Global's research [4] shows the *annual default rates* for BB (CCC) are 0.00% (29.61%) in 2019, 0.94% (47.88%)  in 2020, 0.00% (10.99%)  in 2021, and 0.32% (13.84%) in 2022.
+- Moody's Investor Service publishes the *cumulative default rates* based on history from 1970 to 2022.  
+  <p align="center">
+  <img src="/images/posts_2024_07_01/moody_cum_pd.png" >
+  </p>
+
 <br>
-
-
 
 **Reference**
 
@@ -107,4 +112,6 @@ Likewise, S&P global also published its rating-to-default_prob [linkages](https:
 [3] Moody's Investor Service, 2017 [Moody's Financial Metrics™ Key Ratios
 by Rating and Industry for Global Non-
 Financial Corporates: December 2016]
+
+[4] S&P Global, 2024, [Default, Transition, and Recovery: 2023 Annual Global Corporate Default And Rating Transition Study](https://www.spglobal.com/ratings/en/research/articles/240328-default-transition-and-recovery-2023-annual-global-corporate-default-and-rating-transition-study-13047827)
 
