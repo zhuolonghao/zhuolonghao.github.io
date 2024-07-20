@@ -11,7 +11,7 @@ title: "[Leveraged Finance] Defining Leveraged in Leveraged Finance"
 A company is regarded as highly leveraged when it has a credit rating of speculative-grade assigned by Credit Rating Agencies. 
 The ratings are often assigned using both quantitative measures and qualitative judgments. 
 
-This post introduces two rating methodologies and explores their connection with probability of default (PD).   
+This post introduces two rating methodologies and explores their connection with probability of default (PD). The focus is on how a leveraged borrower is identified in each method.      
 
 <br>
 
@@ -19,16 +19,16 @@ This post introduces two rating methodologies and explores their connection with
 
 Moody's Investor Service **ranks** the creditworthiness of borrowers using a standardized rating scale from Aaa (the highest quality) to C (the lowest quality). 
 
-These ratings are calculated as a weighted average of factors considered in the Scorecard. Below is a scorecard for Integrated Oil and Gas companies [1].
-- at the top, it mainly considers financial metrics such as interest coverage, and balance sheet leverage.
-- it also factors in the country's risk and local government policies, which may result in a downgrade adjustment.
-- ratings may reflect additional factors that are difficult to quantify or measure, such as the quality and experience of management.
+These ratings are calculated as a weighted average of factors considered in the Scorecard, as illustrated below for Integrated Oil and Gas companies [1].
+- At the top, it's a rule-based method that considers financial metrics such as interest coverage, leverage, size, and profitability.
+- It also incorporates the country's risk and local government policies, which may result in an adjustment to the initial rating.
+- The final rating can be further adjusted due to other considerations such as the management quality and experience.
 
 <p align="center">
 <img src="/images/posts_2024_07_01/moody_score_card.png" >
 </p>
 
-Despite the scorecard factors and their relative importance/weight differ across industries [2], it's helpful to summarize popular financial metrics without regard to industry classification. For instance, the table below presents the medians by broad rating category for global non-financial corporates as of Dec 2016 [3]. In general, the median for these metrics follows a monotonic relationship with ratings.
+Despite Moody's scorecards being industry-specific [2], a quick look at all global non-financial corporates by broad rating category reveals the median for selected financials generally follows a monotonic relationship with rating [3]. 
   
 <p align="center">
 <img src="/images/posts_2024_07_01/moody_rating_fin.png" >
@@ -36,21 +36,17 @@ Despite the scorecard factors and their relative importance/weight differ across
 
 A speculative-grade company appears to have  
   * **Balance Sheet Leverage**: Debt/Book_Cap > 46.4%
-  * **Operating Leverage**:  Debt/EBITDA > 2.9x
+  * **Operating Leverage**: Debt/EBITDA > 2.9x
   * **Debt Service Coverage**: EBITA/Interest_Expense < 6.3x, (FFO+Interest_Expense)/Interest_Expense < 8.1x
   * **Free Cash Flow Coverage**: FFO/Debt < 27.1%, Retained_Cash_Flow/Net_Debt < 25.3%  
   * **Profitability**:  EBITA/Avg_Assets < 8.7%, EBITA_Margin < 13.9%, Operating_Margin < 12.0%
   * **Others**:, CapEx/Depreciation < 1.2x, Revenue_volatility > 10.7x
-
-
 <br>
 
 ## Top Investment Banking's Credit Ratings
 
-Large banks also develop internal scorecards that are customized to align with the bank's credit philosophy and strategic objectives. 
-One key difference lies in how a bank defines each risk factor and asssess its relative importance. 
-
-Table below illustrates the allocation of weights assigned to risk areas based on the size of borrowers. 
+Likewise, large banks also develop internal scorecards that 1) share many similarities with those of CRAs and 2) align with the banks' credit philosophy and strategic objectives.
+For example, banks' scorecards can be segmented by borrowers' size and, within each segment, have different focus on risk areas.
 | Risk Area | Large Corp <br> (ann. rev: $750+MM) | Upper Middle Market <br> (ann. rev: $20 ~ 750MM) | Lower Middle Market <br> (ann. rev: <$20MM) | Special Corp  <br> (Sponsored)| 
 |----| :---: | :---: | :---: | :---: |
 | Leverage    | 35%  | 40%  | 30% | 50%  |
@@ -59,8 +55,7 @@ Table below illustrates the allocation of weights assigned to risk areas based o
 | Liquidity    | - | 5%  | 30% | - |
 | Size    | 25% | - | - | - |
 
-The borrower's size also influences the selection of metrics within each risk area, as does its threshold for highly leveraged borrowers. 
-Below are a few examples. 
+The following further details the metrics and their thresholds for highly leveraged borrowers.
 
 For Large-Corp,   
   * **Leverage**: Total_Debt/Adjusted_EBITDA > 3.75x (35%)
@@ -83,26 +78,29 @@ For Middle Market w/ Equity Sponsor,
   * **Coverage**: (Adjusted_EBITDA-CapEx-Cash_Taxes)/(Cash_interest+Cash_distribution+1/14thx(Total_debt+Finance_lease)) < 1.75x  (30%)
   * **Coverage**: Adjusted_EBITDA/Cash_interest < 5x  (20%) 
 
-
-Likewise, the scorecards consider such qualitative factors as historical trends, management/equity sponsor strength, market position, industry outlook, access to capital markets, and legal/regulatory/operational/reputational risk, which can override the scorecard-induced ratings.  
+These scorecards also consider such qualitative factors as historical trends, management/equity sponsor strength, market position, industry outlook, access to capital markets, and legal/regulatory/operational/reputational risk, which can override the scorecard-induced ratings.  
 
 <br>
 
-## Credit Ratings != Default Probability
+## Credit Rating != Default Probability
 
-Credit ratings are over-the-time ratings used to *rank* the creditworthiness of borrowers. Therefore, credit ratings do not necessarily equate to default probabilities. It should be noted that 
-- **Within a given year, a higher rating tends to have a lower default probability, and**
-- **The default probability for the same rating can fluctuate from year to year, and**
-- **The same rating category (e.g., BBB) can imply different default probabilities across different CRAs** 
+Credit rating and default probability are often considered twin concepts with nontrivial nuances: 
+- Credit ratings are over-the-time ratings for ranking the creditworthiness of borrowers.
+- Default probabilities are point-in-time forecasts of default likelihood.
 
-Annual and cumulative default rates are useful:
+Therefore, Default probabilities provide more timely and detailed information than credit ratings: 
+- **Across different ratings Within a given year, a higher rating tends to have a lower default probability, and**
+- **For a given rating, the default probability can fluctuate from year to year, and**
+- **The same rating category from different CRAs can have different default probabilities** 
+
+Annual and cumulative default rates are useful and reported by CRAs:
 - S&P Global's research [4] shows the *annual default rates* for BB (CCC) are 0.00% (29.61%) in 2019, 0.94% (47.88%)  in 2020, 0.00% (10.99%)  in 2021, and 0.32% (13.84%) in 2022.
 - Moody's Investor Service [5] publishes the *cumulative default rates* based on history from 1970 to 2022.  
   <p align="center">
   <img src="/images/posts_2024_07_01/moody_cum_pd.png" >
   </p>
 
-Therefore, investors must have accurate and reliable default probability forecasts for highly leveraged companies. 
+In short, credit ratings are more relevant to credit underwriting and investment decision-making, while default probabilities are more important to portfolio management. 
 <br>
 
 
