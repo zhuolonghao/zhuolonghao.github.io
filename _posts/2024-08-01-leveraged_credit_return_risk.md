@@ -53,7 +53,7 @@ $$
 
 With this insight, the Black-Scholes formula is easily applicable for estimating gross yield and credit loss rate. 
 - gross yield = risk-free rate + *credit risk premium*
-- credit loss rate = *default probability(PD)* * exposure at default(EAD) * loss given default(LGD)
+- credit loss rate = *PD* * EAD * LGD
 
 Per theory, *credit risk premium* responds to four risk factors; LTV, asset vol, risk-free interest, and time-to-maturity. Among others, the Debt-to-Asset ratio and asset volatility are particularly important in estimating the default probability. Distance-to-Default (DD), for instance, calculates the difference between asset and default point (e.g., current liability + 1/2 LT liability), scaled by unobservable asset volatility, and maps it to a probability value from [0, 1] via certain measurement (e.g., logistic function).    
 
