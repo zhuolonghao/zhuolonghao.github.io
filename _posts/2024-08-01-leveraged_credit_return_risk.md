@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Leveraged Finance] Expected Return and Risk from Private Credit"
+title: "[Leveraged Finance] Expected Return and Risk"
 ---
 
 {{ page.title }}
@@ -8,9 +8,12 @@ title: "[Leveraged Finance] Expected Return and Risk from Private Credit"
 
 <p class="meta">August 2024 - Charlotte, NC</p>
 
-It's important for institutional investors to assess corporate credit investment relative to other asset classes before deciding its desirable allocation to private credit investment within an overall portfolio.   
+Leveraged loans attract investors and asset allocators based on three key features: seniority, security/collateral, and the floating rate nature of loan returns.
+The first two components mitigate credit risk, and the third virtually eliminates interest rate risk. 
 
-This post describes the capital market assumptions on risk and return of different asset classes. I will also introduce one of the most popular theoretical underpinnings of credit pricing. 
+Leveraged loans are not securities. This fundamental characterization makes it private credit, in contrast to public credit such as high-yield bonds. Therefore, investors must assess private credit investment relative to other asset classes before deciding its desirable allocation within an overall portfolio.
+This post describes the capital market assumptions on risk and return of different asset classes. 
+A theoretical framework is also introduced to tackle credit pricing. 
 
 <br>
 
