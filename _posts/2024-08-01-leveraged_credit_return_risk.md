@@ -64,13 +64,11 @@ Per theory, *credit risk premium* responds to four risk factors; LTV, asset vol,
 <img src="/images/posts_2024_08_01/Merton.png" width="800" >
 </p> 
 
-Empirically, the gross yield is eventually determined by market participants at origination and during trading. Some examples include   
+**Empirically**, loans are announced with a target price, but the actual price will either flex up or flex down depending on demand and general market conditions. The *targeted* price is negotiated and agreed by arrangers (e.g., bank) and issuer/borrower, at the time the mandate to lead the loan was granted. This is in contrast to bonds, which are typically priced when the offering is completed, based on the pricing required to "clear the market" and sell the entire issue. Therefore, loans need the inclusion of pricing "flex" to resemble that of bonds. Below are a few examples  
 - IB executed the reprice tight of talk, reducing the spread from S+300 bps to S+250 bps while removing the credit spread adjustment ("CSA"), achieving 75 bps of interest savings for the firm
 - IB's execution resulted in final pricing of S+300 bps | 99.75 OID; compared to price talk of S+350-375 bps | 99.50 OID.
-- Client announced $benchmark size trade spread across 2-40yr tenors, verbalizing size in $10MM with a skew of proceeds to the long end of the curve // The order books developed quickly, hitting $11bn within the first hour, eventually peaking at $40bn with demand skewed to maturities>10yrs // IB opted to push pricing 25 bps tighter on the 2yr and 20bps tighter on the remaining tranches.
-- Client's Tranche A due June 1, 2027 ($825MM), Coupon: 4.375% (price talk: 3.875%-4.375%), Conversion Premium: 20.0% (Price Talk: 20.0%-25.0%), Call protection: Life Non-Call. 
 
-Still, the concept remains useful in estimating the real-time credit loss rate and thus obtaining a reasonable expected return of credit investment. 
+Still, the theory remains useful in 1) guiding the target price and 2) estimating the real-time credit loss rate, two of which can shed light on a reasonable expected return on credit investment. 
 
 **Reference**
 
