@@ -15,19 +15,19 @@ This is fundamental to assessing whether a credit investment is profitable relat
 # High-Level Design 
 
 <p align="center">
-<img src="/images/posts_2025_07_01/loan_pricing.png" width="700" >
+<img src="/images/posts_2025_07_01/loan_pricing.png" width="400" >
 </p>
 
 
 ## P/L Statements 
 
 <p align="center">
-<img src="/images/posts_2025_07_01/loan_pricing2.png" width="700" >
+<img src="/images/posts_2025_07_01/loan_pricing2.png" width="800" >
 </p>
 
 ## Inputs / Rates / Factors
 
 <p align="center">
-<img src="/images/posts_2025_07_01/loan_pricing3.png" width="700" >
+<img src="/images/posts_2025_07_01/loan_pricing3.png" width="800" >
 </p>
 
