@@ -19,11 +19,11 @@ This post introduces two rating methodologies and explores their connection with
 There is no commonly agreed definition for leveraged loans. Based on the survey performed by FSB, these criteria are considered including 1) debt-to-ebitda, 2) credit ratings, 3) loan purpose, 4) presence of a private equity sponsor, and 5) high loan spread.  
 
 <p align="center">
-<img src="/images/posts_2024_07_01/def_LevFin_data_provider.png" >
+<img height="500"  src="/images/posts_2024_07_01/def_LevFin_data_provider.png" >
 </p>
 
 <p align="center">
-<img src="/images/posts_2024_07_01/def_LevFin_regulators.png" >
+<img height="500"  src="/images/posts_2024_07_01/def_LevFin_regulators.png" >
 </p>
 
 <br>
