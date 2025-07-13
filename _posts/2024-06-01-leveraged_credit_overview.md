@@ -6,9 +6,14 @@ title: "[Leveraged Finance] Quick Overview"
 {{ page.title }}
 ================
 
-<p class="meta">June 2024 - Charlotte, NC</p>
+<p class="meta">June 2024, re-write July 2025 - Charlotte, NC</p>
 
-**Leveraged Finance** or **LevFin** refers to debt financing of highly levered / speculative-grade companies. They raise debt capital through loan and bond underwriting. 
+**Leveraged Finance** or **LevFin** refers to debt financing of highly levered / speculative-grade companies. They raise debt capital through loan and bond underwriting.
+Leveraged loans are mainly used for leveraged buy-outs (LBOs), 
+mergers and acquisitions (M&A), 
+recapitalisation or 
+refinancing of debt.
+In contrast
 
 Debt issuances often receive a rating from major credit rating agencies, such as S&P Global Ratings (S&P). 
 Per S&P's analysis [1], among *rated* corporates, speculative-grade represents 51% of issuers, despite they just account for 22% of *rated* debt. 
@@ -65,6 +70,17 @@ On the other side, private credit funds invest in the debt of small and medium-s
 Lending to leveraged borrowers can be structured into different risk-return profiles such as Revolver, TLA, and TLB. 
 Banks are major investors in Revolver and Term A due to their risk appetite and regulation. Compared to TLB, TLA has smaller spreads, stricter covenants, and more even amortization schedules. 
 
+<br>
+
+## LevFin: Loan vs Bond 
+
+[8] pinpoints the role of banks in the leveraged loan (incl. CLO) market. 
+
+<p align="center">
+<img  height="400" src="/images/posts_2024_06_01/Schematic_LevFin_CLO.png" >
+</p>
+
+
 <br><br>
 
 
@@ -84,5 +100,6 @@ Banks are major investors in Revolver and Term A due to their risk appetite and 
 
 [7] WallStreetPrep, 2023, [Leveraged Finance Guide](https://www.wallstreetprep.com/knowledge/ultimate-guide-to-debt-leveraged-finance/)
 
-
+[8] Finanical Stability Board, 2019, [Vulnerabilities associated with leveraged loans and collateralised 
+loan obligations](https://www.fsb.org/uploads/P191219.pdf)
 
