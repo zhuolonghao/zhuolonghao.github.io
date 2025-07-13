@@ -78,7 +78,7 @@ Banks perform a variety of functions in the leveraged loan (and CLO) markets, as
 <img  height="400" src="/images/posts_2024_06_01/Schematic_LevFin_CLO.png" >
 </p>
 
-* **Banks as Arrangers/Structurers**: structure, arrange and underwrite leveraged loans. 
+* **Banks as Arrangers/Structurers**: structure, arrange and underwrite leveraged loans, *directly* or *indirectly*. 
 * **Banks as Distributors**: lead/participate in the syndication process (risk-sharing tool) that avoids overly high exposure to a single debtor, and distribute most of of non-amortising loans with a bullet payment at maturity (aka TLB/C/D institutional loans). 
 * **Banks as Investors**: provide funds structured as revolving credit facilities or "revolver" and usually retain only a portion of the term loans (amortising loans aka TLAs).
 
