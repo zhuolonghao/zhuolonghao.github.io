@@ -8,12 +8,11 @@ title: "[Leveraged Finance] Quick Overview"
 
 <p class="meta">June 2024, re-write July 2025 - Charlotte, NC</p>
 
-**Leveraged Finance** or **LevFin** refers to debt financing of highly levered / speculative-grade companies. They raise debt capital through loan and bond underwriting.
-Leveraged loans are mainly used for leveraged buy-outs (LBOs), 
+**Leveraged Finance** or **LevFin** refers to debt financing of highly levered / speculative-grade companies. 
+It comprises both leveraged loans and high-yield bonds. 
+In particular, Leveraged Loans (LL) are mainly used for leveraged buy-outs (LBOs), 
 mergers and acquisitions (M&A), 
-recapitalisation or 
-refinancing of debt.
-In contrast
+recapitalisation or refinancing of debt.
 
 Debt issuances often receive a rating from major credit rating agencies, such as S&P Global Ratings (S&P). 
 Per S&P's analysis [1], among *rated* corporates, speculative-grade represents 51% of issuers, despite they just account for 22% of *rated* debt. 
@@ -72,14 +71,16 @@ Banks are major investors in Revolver and Term A due to their risk appetite and 
 
 <br>
 
-## LevFin: Loan vs Bond 
+## Banks' role in LevFin
 
-[8] pinpoints the role of banks in the leveraged loan (incl. CLO) market. 
-
+Banks perform a variety of functions in the leveraged loan (and CLO) markets, as summarized by [8]. 
 <p align="center">
 <img  height="400" src="/images/posts_2024_06_01/Schematic_LevFin_CLO.png" >
 </p>
 
+* **Banks as Arrangers/Structurers**: structure, arrange and underwrite leveraged loans. 
+* **Banks as Distributors**: lead/participate in the syndication process (risk-sharing tool) that avoids overly high exposure to a single debtor, and distribute most of of non-amortising loans with a bullet payment at maturity (aka TLB/C/D institutional loans). 
+* **Banks as Investors**: provide funds structured as revolving credit facilities or "revolver" and usually retain only a portion of the term loans (amortising loans aka TLAs).
 
 <br><br>
 
