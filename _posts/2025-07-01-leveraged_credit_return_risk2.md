@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Deal-level Private Credit Decisioning] Mark-to-Model Pricing"
+title: "[Deal level Private Credit Decisioning] Mark to Model Pricing"
 ---
 
 {{ page.title }}
