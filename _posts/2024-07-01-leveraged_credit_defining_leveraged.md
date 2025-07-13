@@ -15,7 +15,20 @@ This post introduces two rating methodologies and explores their connection with
 
 <br>
 
-## Moody's Credit Ratings
+## Definition
+There is no commonly agreed definition for leveraged loans. Based on the survey performed by FSB, these criteria are considered including 1) debt-to-ebitda, 2) credit ratings, 3) loan purpose, 4) presence of a private equity sponsor, and 5) high loan spread.  
+
+<p align="center">
+<img src="/images/posts_2024_07_01/def_LevFin_data_provider.png" >
+</p>
+
+<p align="center">
+<img src="/images/posts_2024_07_01/def_LevFin_regulators.png" >
+</p>
+
+<br>
+
+## Example: Moody's Credit Ratings
 
 Moody's Investor Service **ranks** the creditworthiness of borrowers using a standardized rating scale from Aaa (the highest quality) to C (the lowest quality). 
 
@@ -43,7 +56,7 @@ A speculative-grade company appears to have
   * **Others**:, CapEx/Depreciation < 1.2x, Revenue_volatility > 10.7x
 <br>
 
-## Top Investment Banking's Credit Ratings
+## Example: top Investment Banking's Credit Ratings
 
 Likewise, large banks also develop internal scorecards that 1) share many similarities with those of CRAs and 2) align with the banks' credit philosophy and strategic objectives.
 For example, banks' scorecards can be segmented by borrowers' size and, within each segment, have different focus on risk areas.
@@ -89,7 +102,7 @@ Credit rating and default probability are often considered twin concepts with no
 - Default probabilities are point-in-time forecasts of default likelihood.
 
 Therefore, Default probabilities provide more timely and detailed information than credit ratings: 
-- **Across different ratings Within a given year, a higher rating tends to have a lower default probability, and**
+- **Across different ratings within a given year, a higher rating tends to have a lower default probability, and**
 - **For a given rating, the default probability can fluctuate from year to year, and**
 - **The same rating category from different CRAs can have different default probabilities** 
 
